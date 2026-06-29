@@ -71,6 +71,9 @@ npm run dev:web      # Front em http://localhost:3000
 
 Acesse http://localhost:3000 e faça login.
 
+> **Login de desenvolvimento** (criado via `npm run usuario:criar`):
+> e-mail `admin@aliare.com` / senha `admin123`. Troque em produção.
+
 ## Configuração
 
 `.env` (gitignored) na raiz de `app/`:
