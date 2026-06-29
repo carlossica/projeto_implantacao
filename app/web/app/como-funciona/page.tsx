@@ -32,7 +32,7 @@ export default function ComoFuncionaPage() {
   return (
     <div className="max-w-5xl mx-auto pb-12">
       <PageHeader
-        titulo="Como funciona"
+        titulo="Orientações de uso"
         descricao="Documentação visual das regras do simulador — a mesma lógica da planilha, agora configurável."
       />
 

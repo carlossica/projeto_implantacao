@@ -40,7 +40,7 @@ export default function ListaSimulacoes() {
         acao={
           <div className="flex items-center gap-2">
             <Link href="/como-funciona" className="inline-flex items-center gap-1.5 rounded-md border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 text-sm font-medium px-4 py-2 transition-colors">
-              📘 Como funciona
+              📘 Orientações de uso
             </Link>
             <Link href="/simulacoes/nova" className="inline-flex items-center gap-1.5 rounded-md bg-aliare-600 hover:bg-aliare-700 text-white text-sm font-medium px-4 py-2 transition-colors">
               + Nova Simulação

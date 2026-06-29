@@ -42,7 +42,7 @@ export const MENUS: MenuGrupo[] = [
   {
     titulo: "Ajuda",
     itens: [
-      { chave: "/como-funciona", label: "Como funciona", icone: "docs" },
+      { chave: "/como-funciona", label: "Orientações de uso", icone: "docs" },
     ],
   },
 ];
