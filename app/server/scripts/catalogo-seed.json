@@ -1,0 +1,6635 @@
+{
+  "modulos": [
+    {
+      "nome": "CRM - MM - Funcionalidades Fundamentais",
+      "ordem": 0
+    },
+    {
+      "nome": "CRM - MM - Registro de Visita",
+      "ordem": 1
+    },
+    {
+      "nome": "CRM - MM - Potencial & Metas",
+      "ordem": 2
+    },
+    {
+      "nome": "CRM - MM - Força de Vendas",
+      "ordem": 3
+    },
+    {
+      "nome": "CRM - MM - Viagem",
+      "ordem": 4
+    },
+    {
+      "nome": "CRM - MM - Segmentação",
+      "ordem": 5
+    },
+    {
+      "nome": "CRM - MM - Proposta de Crédito",
+      "ordem": 6
+    },
+    {
+      "nome": "CRM - MM - Previsão de Vendas",
+      "ordem": 7
+    },
+    {
+      "nome": "CRM - MM - Ordem de Serviço",
+      "ordem": 8
+    },
+    {
+      "nome": "CRM - MM - Funil de Vendas",
+      "ordem": 9
+    },
+    {
+      "nome": "CRM - MM - Análise de Vendas",
+      "ordem": 10
+    },
+    {
+      "nome": "CRM - MM - Potencial de Máquinas",
+      "ordem": 11
+    },
+    {
+      "nome": "CRM - MM - Chamados",
+      "ordem": 12
+    }
+  ],
+  "funcionalidades": [
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Empresa/Filial",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 4
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Grupo Empresarial",
+      "tipo": "Obrigatório",
+      "horas_minutos": 20,
+      "pacote_padrao": true,
+      "ordem": 5
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Unidade Federativa",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 6
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "País",
+      "tipo": "Obrigatório",
+      "horas_minutos": 10,
+      "pacote_padrao": true,
+      "ordem": 7
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Cidade",
+      "tipo": "Obrigatório",
+      "horas_minutos": 10,
+      "pacote_padrao": true,
+      "ordem": 8
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Unidade de medida",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 9
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Safra",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 10
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Cultura",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 11
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Banco/Cooperativa",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 12
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Área de Negócio",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 13
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Cadastros Fundamentais",
+      "nome": "Região",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 14
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Propriedade",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 15
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Parceiro / Pessoa Física / Pessoa Jurídica",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 16
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Times de Futebol",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 17
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Tipos de Restrições do Local do Parceiro",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 18
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Contato",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 19
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Cônjuge",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 20
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Tipo parceiro",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 21
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Classificação de Parceiro",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 22
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Notas",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 23
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Parceiro Superior",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 24
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Grupo de Compra",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 25
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Cadastro de Documentos",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 26
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Local",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 27
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Cadastro de Maquinário (Inventário de máquinas)",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 28
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Parceiro",
+      "nome": "Tipo Prioridade",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 29
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Lead",
+      "nome": "Origem do Lead, Cliente e Oportunidade",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 30
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Lead",
+      "nome": "Etapas do Lead",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 31
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Lead",
+      "nome": "Tipo de Lead",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 32
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Lead",
+      "nome": "Lead",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 33
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Lead",
+      "nome": "Setor do Lead",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 34
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Usuário x Classe / Classe x Usuário",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 35
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Usuário (Dados Gerais)",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 36
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Empresa",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 37
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Parceiro",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 38
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Filial",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 39
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Copiar Dados de Usuário",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 40
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Produto/Classe de Produto",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 41
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Região",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 42
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Veículos",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 43
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Locais",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 44
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Área de Negócio",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 45
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Viagem",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 46
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Despesa de Viagem",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 47
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Usuário",
+      "nome": "Centro de Custo",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 48
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Área de Atuação",
+      "nome": "Área Atuação - Filial",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 49
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Área de Atuação",
+      "nome": "Área de Atuação - Usuário",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 50
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Veículo",
+      "nome": "Combustível",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 51
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Veículo",
+      "nome": "Tipos de Veículos",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 52
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Embalagem",
+      "tipo": "Opcional, pode ser necessário",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 53
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Classe de Produto",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 54
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Produto",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 55
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Pesquisa Produtos Concorrentes",
+      "tipo": "Validar Jane",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 56
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Categoria de Produtos",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 57
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Categorização de Produtos",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 58
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Classificação de Produtos",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 59
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Incompatibilidade de Produtos",
+      "tipo": "Validar Jane",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 60
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Linha do Produto",
+      "tipo": "Validar Jane",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 61
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Tipo de Situação do Produto",
+      "tipo": "Validar Jane",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 62
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Levantamento Produtos Concorrentes",
+      "tipo": "Validar Jane",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 63
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Fabricante/Registrante",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 64
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Indicador Contábil",
+      "tipo": "Validar Jane",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 65
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Grupo Usina",
+      "tipo": "Validar Jane",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 66
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Operadoras",
+      "tipo": "Validar Jane",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 67
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Produto",
+      "nome": "Situação Bem",
+      "tipo": "Validar Jane",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 68
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Informações do Parceiro",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 69
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Dados DAP",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 70
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Exportação de Localizações",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 71
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Aniversariantes",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 72
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Relatório de Utilização de Dados",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 73
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Localização de Parceiro",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 74
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Tipo de Parceiro",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 75
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Grupo de Compra",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 76
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Propriedades Por Profissional",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 77
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Parceiro Por Profissional",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 78
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Clima",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 79
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Permissão de Localização do Aplicativo",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 80
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Área Atuação - Filial",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 81
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Croqui de Propriedade",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 82
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Relatórios",
+      "nome": "Utilização da Aplicação",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 83
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Agendador de Tarefas",
+      "tipo": "Obrigatório",
+      "horas_minutos": 20,
+      "pacote_padrao": true,
+      "ordem": 84
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "PropertiesTAG",
+      "tipo": "Obrigatório",
+      "horas_minutos": 20,
+      "pacote_padrao": true,
+      "ordem": 85
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Gestão de Consentimento LGPD",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 86
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Solicitação do Direito de Esquecimento",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 87
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Geral",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 88
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Grupo de Usuário",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 89
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Jornada de trabalho do usuário",
+      "tipo": "Obrigatório",
+      "horas_minutos": 25,
+      "pacote_padrao": true,
+      "ordem": 90
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Configurador de Licenciamento e Licenciamento de Usuários",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 91
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Usuário Hierarquia",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 92
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Bloqueio de Acesso",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 93
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Configurador de Área de atuação - Usuário",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 94
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Painel Inicial",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 95
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Configurador de Grupo de Compra",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 96
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Contato",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 97
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Croqui",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 98
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "mae": "Configuradores",
+      "nome": "Configurador de Lead",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 99
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Configuradores",
+      "nome": "Configurador de Atendimentos",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 101
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Configuradores",
+      "nome": "Configurador de Seviços",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 102
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Configuradores",
+      "nome": "Configurador de Agenda",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 103
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Configuradores",
+      "nome": "Configurador Questionário Multifuncional",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 104
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Configuradores",
+      "nome": "Configurador de Classe de Serviços",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 105
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Analítico",
+      "nome": "Análise de Atendimentos e Atividades Filial e Consultor",
+      "tipo": "Opcional",
+      "horas_minutos": 15,
+      "pacote_padrao": false,
+      "ordem": 106
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Analítico",
+      "nome": "Análise de Agendas da Filial e Consultor",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 107
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Analítico",
+      "nome": "Mapa de Serviços/Atividades Realizadas por Filial Evento",
+      "tipo": "Opcional",
+      "horas_minutos": 15,
+      "pacote_padrao": false,
+      "ordem": 108
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Analítico",
+      "nome": "Desempenho de Vendas nos Atendimentos",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 109
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Analítico",
+      "nome": "Análise Desempenho do Consultor (Precisa da integração dos módulos [Plano Safra + Previsão de Vendas])",
+      "tipo": "Opcional",
+      "horas_minutos": 15,
+      "pacote_padrao": false,
+      "ordem": 110
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Relatórios",
+      "nome": "Agendas Por Filial",
+      "tipo": "Opcional",
+      "horas_minutos": 10,
+      "pacote_padrao": false,
+      "ordem": 111
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Relatórios",
+      "nome": "Agendas por Profissional",
+      "tipo": "Opcional",
+      "horas_minutos": 10,
+      "pacote_padrao": false,
+      "ordem": 112
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Relatórios",
+      "nome": "Atendimentos por Filial X Profissional",
+      "tipo": "Opcional",
+      "horas_minutos": 10,
+      "pacote_padrao": false,
+      "ordem": 113
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Relatórios",
+      "nome": "Localização X Atendimento",
+      "tipo": "Opcional",
+      "horas_minutos": 10,
+      "pacote_padrao": false,
+      "ordem": 114
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Relatórios",
+      "nome": "Atividades Por Consultor",
+      "tipo": "Opcional",
+      "horas_minutos": 10,
+      "pacote_padrao": false,
+      "ordem": 115
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Relatórios",
+      "nome": "Atividades Por Filial",
+      "tipo": "Opcional",
+      "horas_minutos": 10,
+      "pacote_padrao": false,
+      "ordem": 116
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Registro de Visita",
+      "nome": "Tipo de Atendimento​",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 117
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Registro de Visita",
+      "nome": "Relatório em Tempo Real​",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 118
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Registro de Visita",
+      "nome": "Serviço​",
+      "tipo": "Obrigatório",
+      "horas_minutos": 150,
+      "pacote_padrao": true,
+      "ordem": 119
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Registro de Visita",
+      "nome": "Questionário (Novo)",
+      "tipo": "Opcional",
+      "horas_minutos": 90,
+      "pacote_padrao": false,
+      "ordem": 120
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Registro de Visita",
+      "nome": "Classe de Serviços",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 121
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Funcionalidades",
+      "nome": "Coleta de dados em localização em tempo real",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 122
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Agenda",
+      "nome": "Planejamento de agenda​",
+      "tipo": "Obrigatório",
+      "horas_minutos": 120,
+      "pacote_padrao": true,
+      "ordem": 123
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Agenda",
+      "nome": "Planejamento de Serviço​",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 124
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "mae": "Agenda",
+      "nome": "Agenda​",
+      "tipo": "Obrigatório",
+      "horas_minutos": 120,
+      "pacote_padrao": true,
+      "ordem": 125
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": null,
+      "nome": "Nível Tecnologico",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 127
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": null,
+      "nome": "Pacote de Insumos por Nível Tecnologico",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 128
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Potencial (Plano Safra)",
+      "nome": "Plano Safra",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 129
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Potencial (Plano Safra)",
+      "nome": "Replicar Plano Safra",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 130
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Potencial (Plano Safra)",
+      "nome": "Reprocessar Plano Safra",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 131
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Meta de Vendas",
+      "nome": "Configurações do Sistema – Meta de Vendas",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 132
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Meta de Vendas",
+      "nome": "Tabela de Preço (Força de Vendas)",
+      "tipo": "Opcional",
+      "horas_minutos": 90,
+      "pacote_padrao": false,
+      "ordem": 133
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Meta de Vendas",
+      "nome": "Registro de Meta​",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 134
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Analítico",
+      "nome": "Análise de Plantio Potencial Produção Agrícola",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 135
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Analítico",
+      "nome": "Análise de Potencial de Plano Safra (substitui todas as PAMs)",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 136
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Analítico",
+      "nome": "Metas de Vendas – visão geral por Safra",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 137
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Analítico",
+      "nome": "Metas vs Pedidos em Carteira Visão Filial – Safra (Precisa da integração da tabela [faturamentomensal])",
+      "tipo": "Opcional",
+      "horas_minutos": 270,
+      "pacote_padrao": false,
+      "ordem": 138
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Analítico",
+      "nome": "Metas de Vendas – Filial – Safra e Ano Metas vs Pedidos em Carteira Visão Geral – Safra (Precisa da integração da tabela [faturamentomensal])",
+      "tipo": "Opcional",
+      "horas_minutos": 270,
+      "pacote_padrao": false,
+      "ordem": 139
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Analítico",
+      "nome": "Analise de % SOC (Share of Customer)",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 140
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "mae": "Analítico",
+      "nome": "Análise Desempenho do Consultor (Precisa da integração dos módulos [Registro de Visita + Previsão de Vendas])",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 141
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Consulta de Preço e Estoque de Produto",
+      "nome": "Configurador de consulta de preço e estoque de produtos ​",
+      "tipo": "Obrigatório",
+      "horas_minutos": 180,
+      "pacote_padrao": true,
+      "ordem": 143
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Consulta de Preço e Estoque de Produto",
+      "nome": "Consulta de preço e estoque / Carrinho",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 144
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Exportação de Pedidos",
+      "tipo": "Obrigatório",
+      "horas_minutos": 600,
+      "pacote_padrao": true,
+      "ordem": 145
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Copiar Pedido",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 146
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Pedido de Venda",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 147
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Substituição de Itens",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 148
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Acompanhamento do Pedido",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 149
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Moeda",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 150
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Tipo de Documento de Cobrança (Força de Vendas)",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 151
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Condição de Pagamento (Força de Vendas)",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 152
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Condição de Pagamento vínculo c/ Tipo Documento de Cobrança",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 153
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Tabela de Preço (Força de Vendas)",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 154
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Pedido de Venda",
+      "nome": "Tipo de Negociação (NOVO)",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 155
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Aprovação de Pedidos",
+      "nome": "Análise de Aprovação de Pedido",
+      "tipo": "Opcional",
+      "horas_minutos": 180,
+      "pacote_padrao": false,
+      "ordem": 156
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Aprovação de Pedidos",
+      "nome": "Visualizar Pedido Aprovação",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 157
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Aprovação de Pedidos",
+      "nome": "Papel Processo",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 158
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Aprovação de Pedidos",
+      "nome": "Regras para Aprovação",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 159
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Barter",
+      "nome": "Campanha de Troca NOVA",
+      "tipo": "Obrigatório",
+      "horas_minutos": 720,
+      "pacote_padrao": true,
+      "ordem": 160
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Barter",
+      "nome": "Impostos de Troca",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 161
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Barter",
+      "nome": "Silo / dpósito",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 162
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Barter",
+      "nome": "Modalidade de Recolhimento do FUNRURAL",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 163
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Barter",
+      "nome": "Negociação da Troca",
+      "tipo": "Obrigatório",
+      "horas_minutos": 0,
+      "pacote_padrao": true,
+      "ordem": 164
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Estoque",
+      "nome": "Estoque por Ciclo",
+      "tipo": "Opcional",
+      "horas_minutos": 180,
+      "pacote_padrao": false,
+      "ordem": 165
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Estoque",
+      "nome": "Estoque",
+      "tipo": "Opcional",
+      "horas_minutos": 180,
+      "pacote_padrao": false,
+      "ordem": 166
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Limite de Crédito",
+      "nome": "Limite Rotativo ou Limite por Safra ou Misto p/ Parceiro",
+      "tipo": "Opcional",
+      "horas_minutos": 180,
+      "pacote_padrao": false,
+      "ordem": 167
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Titulo",
+      "nome": "Título a receber a vencer/vendido",
+      "tipo": "Opcional",
+      "horas_minutos": 120,
+      "pacote_padrao": false,
+      "ordem": 168
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Campanha de Oferta",
+      "nome": "Campanha de Oferta de Produto",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 169
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Comissão",
+      "nome": "Comissão Pedido de Venda",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 170
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Comissão",
+      "nome": "Tabela de Comissão",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 171
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Cota",
+      "nome": "Configurador de Cota / Cadastro de Cota",
+      "tipo": "Opcional",
+      "horas_minutos": 90,
+      "pacote_padrao": false,
+      "ordem": 172
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Regra de desconto",
+      "nome": "Regras de Desconto",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 173
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Escoamento de Produtos",
+      "nome": "Cancelar Escoamento de Produtos",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 174
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Escoamento de Produtos",
+      "nome": "Escoamento de Produtos",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 175
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Frete",
+      "nome": "Distância entre Filial e Cidade",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 176
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Frete",
+      "nome": "Distância entre Local e Filial",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 177
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Frete",
+      "nome": "Tabela Preço Frete",
+      "tipo": "Opcional",
+      "horas_minutos": 90,
+      "pacote_padrao": false,
+      "ordem": 178
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Venda de Máquinas",
+      "nome": "Visualizar pedido avaliação máquina usada",
+      "tipo": "Opcional",
+      "horas_minutos": 240,
+      "pacote_padrao": false,
+      "ordem": 179
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Venda de Máquinas",
+      "nome": "Aprovação de Avaliação de Máquina Usada",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 180
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Venda de Máquinas",
+      "nome": "Avaliação de máquina usada",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 181
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Venda de Máquinas",
+      "nome": "Configurador de Avaliação de Máquinas",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 182
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Venda de Máquinas",
+      "nome": "Cadastro de Itens de Avaliação",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 183
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Ordem de Carregamento",
+      "nome": "Configurador e Cadastro de Ordem de Carregamento",
+      "tipo": "Opcional",
+      "horas_minutos": 90,
+      "pacote_padrao": false,
+      "ordem": 184
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Ordem de Carregamento",
+      "nome": "Ordem de Carregamento",
+      "tipo": "Opcional",
+      "horas_minutos": 0,
+      "pacote_padrao": false,
+      "ordem": 185
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Tabela de Câmbio (Conversor de Moedas)",
+      "tipo": "Opcional",
+      "horas_minutos": 120,
+      "pacote_padrao": false,
+      "ordem": 186
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Exceções das Condições de Pagamento",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 187
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Avalista / Avalista Avulso",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 188
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Histórico da Tabela de Preço (Preço padrão e projeção)",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 189
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Analítico",
+      "nome": "Análise de Margem de Pedidos de Vendas – Por Período",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 190
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Analítico",
+      "nome": "Força de Vendas",
+      "tipo": "Obrigatório",
+      "horas_minutos": 25,
+      "pacote_padrao": true,
+      "ordem": 191
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "mae": "Configurador de ICMS",
+      "nome": "Configurador de ICMS",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 192
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Configurador de Viagem",
+      "nome": "Configurador de Viagem",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 194
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Aprovação Viagem",
+      "nome": "Aprovação Viagem / Tipo Aprovador",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 195
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Cadastros Básicos",
+      "nome": "Despesas",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 196
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Cadastros Básicos",
+      "nome": "Veículos",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 197
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Cadastros Básicos",
+      "nome": "Exceção de Despesa",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 198
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Cadastros Básicos",
+      "nome": "Média de Despesa",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 199
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Cadastros Básicos",
+      "nome": "Centro de Custo",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 200
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Cadastros Básicos",
+      "nome": "Tipo Viagem",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 201
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Relatórios",
+      "nome": "Despeas de Viagem",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 202
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Relatórios",
+      "nome": "Viagens Exportadas",
+      "tipo": "Opcional",
+      "horas_minutos": 15,
+      "pacote_padrao": false,
+      "ordem": 203
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Relatórios",
+      "nome": "Viagens por Profissional",
+      "tipo": "Opcional",
+      "horas_minutos": 15,
+      "pacote_padrao": false,
+      "ordem": 204
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Relatórios",
+      "nome": "Anexos das Despesas de Serviços da Lei do Bem",
+      "tipo": "Opcional",
+      "horas_minutos": 15,
+      "pacote_padrao": false,
+      "ordem": 205
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Relatórios",
+      "nome": "Comparativo KM/Custo Viagem",
+      "tipo": "Opcional",
+      "horas_minutos": 15,
+      "pacote_padrao": false,
+      "ordem": 206
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Relatórios",
+      "nome": "Despesas das Viagens com Anexos",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 207
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Relatórios",
+      "nome": "Despesas de Serviços da Lei do Bem",
+      "tipo": "Opcional",
+      "horas_minutos": 10,
+      "pacote_padrao": false,
+      "ordem": 208
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Análitico",
+      "nome": "Acompanhamento de viagens dos Consultores",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 209
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Análitico",
+      "nome": "Gestão de Frota de Veículos e Despesas de Viagens",
+      "tipo": "Opcional",
+      "horas_minutos": 25,
+      "pacote_padrao": false,
+      "ordem": 210
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Viagem",
+      "nome": "Combustivel",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 211
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Viagem",
+      "nome": "Viagem",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 212
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Viagem",
+      "nome": "Exportar Viagens Aprovadas",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 213
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Viagem",
+      "nome": "Atendimentos",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 214
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "mae": "Viagem",
+      "nome": "Resumo",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 215
+    },
+    {
+      "modulo": "CRM - MM - Segmentação",
+      "mae": "Cadastros Básicos",
+      "nome": "Perfil Potencial Econômico",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 217
+    },
+    {
+      "modulo": "CRM - MM - Segmentação",
+      "mae": "Cadastros Básicos",
+      "nome": "Perfil Comportamento de Compras",
+      "tipo": "Obrigatório",
+      "horas_minutos": 45,
+      "pacote_padrao": true,
+      "ordem": 218
+    },
+    {
+      "modulo": "CRM - MM - Segmentação",
+      "mae": "Cadastros Básicos",
+      "nome": "Questionário Multifuncional​ (Segmentação)",
+      "tipo": "Opcional",
+      "horas_minutos": 90,
+      "pacote_padrao": false,
+      "ordem": 219
+    },
+    {
+      "modulo": "CRM - MM - Segmentação",
+      "mae": "Configurador",
+      "nome": "Configurador de Segmentação",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 220
+    },
+    {
+      "modulo": "CRM - MM - Segmentação",
+      "mae": "Segmentação",
+      "nome": "Segmentação",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 221
+    },
+    {
+      "modulo": "CRM - MM - Proposta de Crédito",
+      "mae": "Cadastros Básicos",
+      "nome": "Papel Processo",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 223
+    },
+    {
+      "modulo": "CRM - MM - Proposta de Crédito",
+      "mae": "Cadastros Básicos",
+      "nome": "Regras de Aprovação",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 224
+    },
+    {
+      "modulo": "CRM - MM - Proposta de Crédito",
+      "mae": "Cadastros Básicos",
+      "nome": "Categoria de Crédito",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 225
+    },
+    {
+      "modulo": "CRM - MM - Proposta de Crédito",
+      "mae": "Cadastros Básicos",
+      "nome": "Modalidade de Financiamento",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 226
+    },
+    {
+      "modulo": "CRM - MM - Proposta de Crédito",
+      "mae": "Cadastros Básicos",
+      "nome": "Banco/Cooperativa",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 227
+    },
+    {
+      "modulo": "CRM - MM - Proposta de Crédito",
+      "mae": "Configurador",
+      "nome": "Configurador Proposta de Crédito",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 228
+    },
+    {
+      "modulo": "CRM - MM - Proposta de Crédito",
+      "mae": "Proposta de Crédito",
+      "nome": "Proposta de Crédito",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 229
+    },
+    {
+      "modulo": "CRM - MM - Proposta de Crédito",
+      "mae": "Proposta de Crédito",
+      "nome": "Aprovação de Proposta de Crédito",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 230
+    },
+    {
+      "modulo": "CRM - MM - Previsão de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Tabela de Preço",
+      "tipo": "Obrigatório",
+      "horas_minutos": 120,
+      "pacote_padrao": true,
+      "ordem": 232
+    },
+    {
+      "modulo": "CRM - MM - Previsão de Vendas",
+      "mae": "Previsão de Vendas",
+      "nome": "Configurador Previsão de Venda",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 233
+    },
+    {
+      "modulo": "CRM - MM - Previsão de Vendas",
+      "mae": "Previsão de Vendas",
+      "nome": "Previsão de Venda",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 234
+    },
+    {
+      "modulo": "CRM - MM - Previsão de Vendas",
+      "mae": "Analítico",
+      "nome": "Previsão de Vendas por Safra",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 235
+    },
+    {
+      "modulo": "CRM - MM - Previsão de Vendas",
+      "mae": "Analítico",
+      "nome": "Análise Desempenho do Consultor (Precisa da integração dos  módulos [Registro de Visita +Plano Safra])",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 236
+    },
+    {
+      "modulo": "CRM - MM - Previsão de Vendas",
+      "mae": "Relatórios",
+      "nome": "Histórico de Alteração de Previsão de Vendas",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 237
+    },
+    {
+      "modulo": "CRM - MM - Previsão de Vendas",
+      "mae": "Relatórios",
+      "nome": "Histórico de Previsão de Vendas",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 238
+    },
+    {
+      "modulo": "CRM - MM - Ordem de Serviço",
+      "mae": "Cadastros Básicos",
+      "nome": "Tipo de Ordem de Serviço",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 240
+    },
+    {
+      "modulo": "CRM - MM - Ordem de Serviço",
+      "mae": "Cadastros Básicos",
+      "nome": "Tipo de Prioridade",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 241
+    },
+    {
+      "modulo": "CRM - MM - Ordem de Serviço",
+      "mae": "Cadastros Básicos",
+      "nome": "Cadastro de Mecânico e Auxiliar",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 242
+    },
+    {
+      "modulo": "CRM - MM - Ordem de Serviço",
+      "mae": "Cadastros Básicos",
+      "nome": "Serviços",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 243
+    },
+    {
+      "modulo": "CRM - MM - Ordem de Serviço",
+      "mae": "Cadastros Básicos",
+      "nome": "Pacote de Serviços e Produtos Mecânicos",
+      "tipo": "Opcional",
+      "horas_minutos": 90,
+      "pacote_padrao": false,
+      "ordem": 244
+    },
+    {
+      "modulo": "CRM - MM - Ordem de Serviço",
+      "mae": "Configurador",
+      "nome": "Configurador de Ordem de Serviços",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 245
+    },
+    {
+      "modulo": "CRM - MM - Ordem de Serviço",
+      "mae": "Ordem de Serviço",
+      "nome": "Ordem de Serviço",
+      "tipo": "Obrigatório",
+      "horas_minutos": 120,
+      "pacote_padrao": true,
+      "ordem": 246
+    },
+    {
+      "modulo": "CRM - MM - Ordem de Serviço",
+      "mae": "Ordem de Serviço",
+      "nome": "Acompanhamento de Ordem de Serviço",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 247
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Termômetro",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 249
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Probalidade de Fechamento",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 250
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Motivo de Não Fechamento",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 251
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Motivo de Compra / Objeção",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 252
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Origem do Lead, Cliente e Oportunidade",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 253
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Cadastros Básicos",
+      "nome": "Funil",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 254
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Configurador",
+      "nome": "Oportunidade - Configurador de Gestão de Oportunidades",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 255
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Configurador",
+      "nome": "Config. Sistema - Gestão de Oportunidades",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 256
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Configurador",
+      "nome": "Configurador de Obrigatoriedade por Etapa",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 257
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Oportunidades",
+      "nome": "Oportunidades - Migrar",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 258
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Oportunidades",
+      "nome": "Oportunidades",
+      "tipo": "Obrigatório",
+      "horas_minutos": 120,
+      "pacote_padrao": true,
+      "ordem": 259
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Relatórios",
+      "nome": "Motivo de Não Fechamento",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 260
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Relatórios",
+      "nome": "Proposta Comercial",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 261
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Análitico",
+      "nome": "Gestão de Oportunidades por Vendedor",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 262
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "mae": "Análitico",
+      "nome": "Tabela Dinâmica Oportunidade",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 263
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "mae": "Analítico",
+      "nome": "Acompanhamento de Vendas Por Filial (Por período e safra)",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 265
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "mae": "Analítico",
+      "nome": "Acompanhamento de Vendas Por Vendedor (Por período e safra)",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 266
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "mae": "Analítico",
+      "nome": "Acompanhamento de Vendas Visão Organizacional (Por período e safra)",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 267
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "mae": "Analítico",
+      "nome": "Mix de Cliente e Produto (Por período e safra)",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 268
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "mae": "Analítico",
+      "nome": "Análise da Evolução de Vendas (Por safra)",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 269
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "mae": "Configurador",
+      "nome": "Tipo Operação Nota Fiscal",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 270
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "mae": "Configurador",
+      "nome": "Tipo Exceção de Pedido em Carteira",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 271
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "mae": "Relatórios",
+      "nome": "Vendas por Filial",
+      "tipo": "Opcional",
+      "horas_minutos": 90,
+      "pacote_padrao": false,
+      "ordem": 272
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "mae": "Relatórios",
+      "nome": "Pedidos em Carteira",
+      "tipo": "Opcional",
+      "horas_minutos": 90,
+      "pacote_padrao": false,
+      "ordem": 273
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Cadastros Básicos",
+      "nome": "Índice Tecnológico de Máquinas",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 275
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Cadastros Básicos",
+      "nome": "Aplicação do equipamento",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 276
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Cadastros Básicos",
+      "nome": "Cadastro de Itens de Avaliação",
+      "tipo": "Obrigatório",
+      "horas_minutos": 90,
+      "pacote_padrao": true,
+      "ordem": 277
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Configurador",
+      "nome": "Configurador de Avaliação de Máquina Usada",
+      "tipo": "Obrigatório",
+      "horas_minutos": 120,
+      "pacote_padrao": true,
+      "ordem": 278
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Configurador",
+      "nome": "Configurador de Potencial de Serviços e Peças",
+      "tipo": "Obrigatório",
+      "horas_minutos": 15,
+      "pacote_padrao": true,
+      "ordem": 279
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Relatórios",
+      "nome": "Informações de Maquinários",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 280
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Relatórios",
+      "nome": "Inventário de Máquinas",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 281
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Relatórios",
+      "nome": "Máquinas á venda",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 282
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Relatórios",
+      "nome": "Potencial por Grupo de Equipamento",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 283
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Inventário de Máquinas",
+      "nome": "Levantamento Inventário de Máquinas",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 284
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Inventário de Máquinas",
+      "nome": "Avaliação de Máquina Usada",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 285
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Inventário de Máquinas",
+      "nome": "Aprovação de Avaliação de Máquina Usada",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 286
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Potencial de Máquinas",
+      "nome": "Maquinário",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 287
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Potencial de Máquinas",
+      "nome": "Potencial de Serviços e Peças",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 288
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Potencial de Máquinas",
+      "nome": "Potencial de Serviços e Peças Agenda",
+      "tipo": "Opcional",
+      "horas_minutos": 45,
+      "pacote_padrao": false,
+      "ordem": 289
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Analítico",
+      "nome": "Inventário de Máquinas - Carteira Consultor",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 290
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Analítico",
+      "nome": "Inventário de Máquinas Por Estado - Carteira Consultor",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 291
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Analítico",
+      "nome": "Inventário de Máquinas por Cidade - Carteira Consultor",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 292
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "mae": "Analítico",
+      "nome": "Potencial de Mercado e Potencial Mapeado de Maquinário - Carteira da Região x Filial",
+      "tipo": "Opcional",
+      "horas_minutos": 60,
+      "pacote_padrao": false,
+      "ordem": 293
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Cadastros Básicos",
+      "nome": "Tipo de Solicitação",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 295
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Cadastros Básicos",
+      "nome": "Origem da Solicitação",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 296
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Cadastros Básicos",
+      "nome": "Tipo Prioridade",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 297
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Configurador",
+      "nome": "Configurador de Solicitações",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 298
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Relatórios",
+      "nome": "Solicitação",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 299
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Chamados",
+      "nome": "Solicitação",
+      "tipo": "Obrigatório",
+      "horas_minutos": 60,
+      "pacote_padrao": true,
+      "ordem": 300
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Chamados",
+      "nome": "Análise",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 301
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Chamados",
+      "nome": "Anexo",
+      "tipo": "Opcional",
+      "horas_minutos": 15,
+      "pacote_padrao": false,
+      "ordem": 302
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Chamados",
+      "nome": "Encerrar Solicitação",
+      "tipo": "Obrigatório",
+      "horas_minutos": 30,
+      "pacote_padrao": true,
+      "ordem": 303
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Chamados",
+      "nome": "Feedback",
+      "tipo": "Opcional",
+      "horas_minutos": 30,
+      "pacote_padrao": false,
+      "ordem": 304
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Chamados",
+      "nome": "Histórico",
+      "tipo": "Opcional",
+      "horas_minutos": 15,
+      "pacote_padrao": false,
+      "ordem": 305
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "mae": "Chamados",
+      "nome": "Solicitação Seguidores",
+      "tipo": "Obrigatório",
+      "horas_minutos": 15,
+      "pacote_padrao": true,
+      "ordem": 306
+    }
+  ],
+  "erps": [
+    {
+      "nome": "ALIARE - SOLUTION",
+      "ordem": 0
+    },
+    {
+      "nome": "CIGAM",
+      "ordem": 1
+    },
+    {
+      "nome": "DATAPAR",
+      "ordem": 2
+    },
+    {
+      "nome": "MICROSFOT DINAMICS",
+      "ordem": 3
+    },
+    {
+      "nome": "SANKHYA",
+      "ordem": 4
+    },
+    {
+      "nome": "SAP 4H",
+      "ordem": 5
+    },
+    {
+      "nome": "SAP B1",
+      "ordem": 6
+    },
+    {
+      "nome": "SAP R3",
+      "ordem": 7
+    },
+    {
+      "nome": "TOTVS - DATASUL",
+      "ordem": 8
+    },
+    {
+      "nome": "TOTVS - PROTHEUS",
+      "ordem": 9
+    },
+    {
+      "nome": "TOTVS - PROTHEUS 9 <",
+      "ordem": 10
+    },
+    {
+      "nome": "VIASOFT",
+      "ordem": 11
+    },
+    {
+      "nome": "OUTROS",
+      "ordem": 12
+    }
+  ],
+  "metodos_integracao": [
+    {
+      "nome": "API padrão ERP",
+      "ordem": 0
+    },
+    {
+      "nome": "API customizada ERP",
+      "ordem": 1
+    },
+    {
+      "nome": "Sem integração",
+      "ordem": 2
+    }
+  ],
+  "fluxos_integracao": [
+    {
+      "contexto": "solution",
+      "fluxo": null,
+      "tabela": "Todos os cadastros básicos",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 3
+    },
+    {
+      "contexto": "solution",
+      "fluxo": null,
+      "tabela": "Todas as movimentações financeiras",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 4
+    },
+    {
+      "contexto": "solution",
+      "fluxo": null,
+      "tabela": "Todos os fluxos de força de venda",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 5
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - País, Estado e Cidade",
+      "tabela": "1.01 País",
+      "tipo": "**Sempre",
+      "min_config": 10,
+      "min_teste_carga": 30,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 6
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - País, Estado e Cidade",
+      "tabela": "1.02 Unidade Federativa",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 7
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - País, Estado e Cidade",
+      "tabela": "1.03 Cidade",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 8
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Unidade de medida",
+      "tabela": "1.04 Unidade de Medida",
+      "tipo": "**Sempre",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 0,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 9
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Parceiro - Parte 1",
+      "tabela": "1.05 Parceiro",
+      "tipo": "**Sempre",
+      "min_config": 135,
+      "min_teste_carga": 30,
+      "min_apoio": 30,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 10
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Parceiro - Parte 2",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 11
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Local - Entidade Empresa",
+      "tabela": "1.06 Local",
+      "tipo": "**Sempre",
+      "min_config": 180,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 12
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Local - Entidade Parceiro",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 13
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Local - Entidade Propriedade",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 14
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico – Empresa",
+      "tabela": "1.14 Empresa",
+      "tipo": "**Sempre",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 0,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 15
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Registrante",
+      "tabela": "1.15.1 Registrante / Fabricante",
+      "tipo": "*Módulo",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 10,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 16
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Fornecedor",
+      "tabela": "1.15.2 Fornecedor",
+      "tipo": "*Módulo",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 10,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 17
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Filial",
+      "tabela": "1.15 Filial",
+      "tipo": "**Sempre",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 10,
+      "min_validacao": 25,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 18
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Pessoa física e jurídica - Fluxo 1",
+      "tabela": "1.16 Pessoa Física e 1.17 Pessoa Jurídica",
+      "tipo": "**Sempre",
+      "min_config": 20,
+      "min_teste_carga": 30,
+      "min_apoio": 40,
+      "min_validacao": 60,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 19
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Pessoa física - Fluxo 2",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 20
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Pessoa jurídica - Fluxo 3",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 21
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Produto e produto classe",
+      "tabela": "1.08 Produto e 1.10 Produto Classe",
+      "tipo": "*Módulo",
+      "min_config": 180,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 22
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classe de produto",
+      "tabela": "1.09 Classe de Produto",
+      "tipo": "*Módulo",
+      "min_config": 10,
+      "min_teste_carga": 25,
+      "min_apoio": 25,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 23
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Movimentação financeira - Local nota fiscal",
+      "tabela": "3.1 Local Nota Fiscal",
+      "tipo": "*Módulo",
+      "min_config": 660,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 120,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Funil de Vendas"
+      ],
+      "ordem": 24
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Movimentação financeira - Faturamento mensal - Parte 1",
+      "tabela": "3.2 Pedidos em Carteira (Fat. Mensal)",
+      "tipo": "*Módulo",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 240,
+      "modulos_ativa": [
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - Analise de Vendas"
+      ],
+      "ordem": 25
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Movimentação financeira - Faturamento mensal - Parte 2",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 26
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Usuários",
+      "tabela": "1.11 Usuário",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 0,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 27
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Usuário empresa, filial e parceiro",
+      "tabela": "1.28 Usuário Filial",
+      "tipo": "*Qualifica",
+      "min_config": 15,
+      "min_teste_carga": 15,
+      "min_apoio": 10,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 28
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Usuário empresa, filial e parceiro",
+      "tabela": "1.29 Usuário Empresa",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 29
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Usuário empresa, filial e parceiro",
+      "tabela": "1.28 Usuário Parceiro",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 30
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Usuário empresa, filial e parceiro",
+      "tabela": "1.27 Usuário Produto",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 31
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Cultura",
+      "tabela": "1.12 Cultura",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 0,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 32
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Safra",
+      "tabela": "1.13 Safra",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 0,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 33
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Região",
+      "tabela": "1.19 Região",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 0,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 34
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Região local",
+      "tabela": "1.20 Região Local",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 10,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 35
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Usuário região",
+      "tabela": "1.21 Usuário Região",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 10,
+      "min_validacao": 5,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 36
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Propriedade",
+      "tabela": "1.22 Propriedade",
+      "tipo": "*Qualifica",
+      "min_config": 20,
+      "min_teste_carga": 20,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Potencial & Metas"
+      ],
+      "ordem": 37
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Vínculo imobiliário",
+      "tabela": "1.23 Vin. Imob.",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Potencial & Metas"
+      ],
+      "ordem": 38
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Posse",
+      "tabela": "1.24 Posse",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Potencial & Metas"
+      ],
+      "ordem": 39
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Arrendamento",
+      "tabela": "1.25 Arrend.",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 40
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Arrendamento",
+      "tabela": "1.26 Região Filial",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 41
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Tipo parceiro",
+      "tabela": "1.33 Tipo Parceiro",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 15,
+      "min_apoio": 10,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita"
+      ],
+      "ordem": 42
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Parceiro tipo parceiro",
+      "tabela": "1.34 Parceiro Tipo Parceiro",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 15,
+      "min_apoio": 10,
+      "min_validacao": 5,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais"
+      ],
+      "ordem": 43
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Estoque",
+      "tabela": "3.4 Estoque",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 20,
+      "min_apoio": 20,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 44
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Estoque",
+      "tabela": "3.10 Carga (Romaneios)",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 45
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "1.29 Veículo",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 0,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Viagem"
+      ],
+      "ordem": 46
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "1.30 Centro de Custo",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 47
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "1.31 Usuário Centro de Custo",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 48
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "1.32 Despesa",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 49
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "4.3 Exportação de Viagem",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 50
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "4.4 Rastreador Veículo",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 51
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Silo",
+      "tabela": "1.37 Silo",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 0,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 52
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Silo",
+      "tabela": "1.39 Preço Produto",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 53
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Silo",
+      "tabela": "1.60 Segmentação",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 54
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Silo",
+      "tabela": "3.3 Metas de Venda",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 55
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Movimentação financeira - Histórico de aquisição de produtos",
+      "tabela": "3.8 Histórico Aquisição Produtos",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 56
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Movimentação financeira - Histórico de aquisição de produtos",
+      "tabela": "3.9 Histórico Produção Entregue",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 57
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Movimentação financeira - Resumo financeiro do cliente",
+      "tabela": "3.11 PCResumoFinanceiro + 3.12 PCResumoTitulos",
+      "tipo": "*Qualifica",
+      "min_config": 60,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 120,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 58
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Movimentação financeira - Títulos",
+      "tabela": "3.7 Títulos",
+      "tipo": "*Qualifica",
+      "min_config": 300,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Proposta de Crédito"
+      ],
+      "ordem": 59
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Movimentação financeira - Títulos",
+      "tabela": "1.35 Banco",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 60
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Modalidade Recolhimento Funrural",
+      "tabela": "2.22 Modalidade Recolhimento Funrural",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 61
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Limite de crédito parceiro",
+      "tabela": "1.40 Limite Crédito Parceiro",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 20,
+      "min_apoio": 16,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Proposta de Crédito"
+      ],
+      "ordem": 62
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Pedido - PVPedidoHistoricoSituacao, PVPedidoItemHistoricoSituacao, PVPedidoItemNotaFiscal",
+      "tabela": "2.26 PVPedHistSituacao",
+      "tipo": "*Qualifica",
+      "min_config": 15,
+      "min_teste_carga": 30,
+      "min_apoio": 30,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 63
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Pedido - PVPedidoHistoricoSituacao, PVPedidoItemHistoricoSituacao, PVPedidoItemNotaFiscal",
+      "tabela": "2.27 PVPedItemHistSituacao",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 64
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Pedido - PVPedidoHistoricoSituacao, PVPedidoItemHistoricoSituacao, PVPedidoItemNotaFiscal",
+      "tabela": "2.26 PVPedidoItemNotaFiscal",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 65
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Lançamento de pedido no AGB",
+      "tabela": "4.0 Exportação de pedido",
+      "tipo": "*Qualifica",
+      "min_config": 150,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 240,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 66
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Lançamento de pedido barter no AGB",
+      "tabela": "4.1 Exportação de pedido barter",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 240,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 67
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tipo documento cobrança",
+      "tabela": "2.29 PVTipoDocumentoCobranca",
+      "tipo": "Avaliado",
+      "min_config": 10,
+      "min_teste_carga": 30,
+      "min_apoio": 20,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 68
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.11 PVTabelaPrecoCondicao",
+      "tipo": "Avaliado",
+      "min_config": 360,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 170,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 69
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.15 PVTabelaPrecoItem",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 70
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.4 PVTabelaPreco",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 71
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.16 PVTabelaPrecoItemProjecao",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 72
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.6 PVTabelaPrecoUsuario",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 73
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.7 PVTabelaPrecoFilial",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 74
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.7 PVTabelaPrecoTipoParceiro",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 75
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.7 PVTabelaPrecoSafra",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 76
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Tipo de Negociação",
+      "tabela": "2.18 PVTipoDeNegociacao",
+      "tipo": "Avaliado",
+      "min_config": 10,
+      "min_teste_carga": 20,
+      "min_apoio": 20,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 77
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Condição de pagamento",
+      "tabela": "2.10 PVCondicaoPagamento",
+      "tipo": "Avaliado",
+      "min_config": 10,
+      "min_teste_carga": 5,
+      "min_apoio": 5,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 78
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - PV Condição de pagamento tipo documento cobrança",
+      "tabela": "2,2 PVCondicaoPagamentoTipoDocumentoCobranca",
+      "tipo": "Avaliado",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 5,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 79
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Força de venda - Cotação PTAX",
+      "tabela": "CotacaoPTAX",
+      "tipo": "Avaliado",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 10,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 80
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Pessoa física complementar",
+      "tabela": "PessoaFisicaComplementar",
+      "tipo": "Avaliado",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 10,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 81
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Cônjuge",
+      "tabela": "Conjuge",
+      "tipo": "Avaliado",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 10,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 82
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "ClassificacaoProduto",
+      "tipo": "Avaliado",
+      "min_config": 10,
+      "min_teste_carga": 10,
+      "min_apoio": 10,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 83
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.17 PVCondicaoPagamentoParcela",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 84
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.23 PVTabelaPrecoItemCondicao",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 85
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.25 Condição de Pagamento Safra",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 86
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.30 PVExcecaoCondicaoPagamento",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 87
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.31 PVExcecaoCondicaoPagamentoClasseProduto",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 88
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.32 PVExcecaoCondicaoPagamentoProduto",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 89
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.33 TabelaDePrecoExcecaoClasseDeProduto",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 90
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.13 PVExcecaoTabelaPreco",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 91
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.14 PVExcecaoTabelaPrecoItem",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 92
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.8 PVTabelaPrecoLocalFaturamento",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 93
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.9 PVTabelaPrecoUFDestino",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 94
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.36 PVCampanhaTrocaFilial",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 95
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.42 PVCampanhaOferta",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 96
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "4.1 Ordem de Carregamento",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 97
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "4.2 Substituição de Produtos",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 98
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.12 PVTabelaPrecoCondicaoTabelaFrete",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 99
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.34 FaixaPrecoFrete",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 100
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.5 PVTabelaPrecoTabelaFrete",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 101
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.1 Tipos de Solicitação de Serviço",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 102
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.2 Posto de Trabalho",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 103
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.3 SS Solicitação",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 104
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.3 SS Solicitação",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 105
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.5 SS Serviço",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 106
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.6 Máquina",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 107
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.7 Parceiro Máquina",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 108
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.8 Produto Chassi",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 109
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.9 Exportar Ordem de Serviço",
+      "tipo": "Avaliado",
+      "min_config": 480,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Ordem de Serviço"
+      ],
+      "ordem": 110
+    },
+    {
+      "contexto": "solution",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "5.0 Integrar Gestão de Eventos",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 111
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": null,
+      "tabela": "Todos os cadastros básicos",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 3
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": null,
+      "tabela": "Todas as movimentações financeiras",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 4
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": null,
+      "tabela": "Todos os fluxos de força de venda",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 5
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - País, Estado e Cidade",
+      "tabela": "1.01 País",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 6
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - País, Estado e Cidade",
+      "tabela": "1.02 Unidade Federativa",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 7
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - País, Estado e Cidade",
+      "tabela": "1.03 Cidade",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 8
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Unidade de medida",
+      "tabela": "1.04 Unidade de Medida",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 9
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Parceiro - Parte 1",
+      "tabela": "1.05 Parceiro",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 10
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Parceiro - Parte 2",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 11
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Local - Entidade Empresa",
+      "tabela": "1.06 Local",
+      "tipo": "**Sempre",
+      "min_config": 960,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 12
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Local - Entidade Parceiro",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 13
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Local - Entidade Propriedade",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 14
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico – Empresa",
+      "tabela": "1.14 Empresa",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 15
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Registrante",
+      "tabela": "1.15.1 Registrante / Fabricante",
+      "tipo": "*Módulo",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 16
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Fornecedor",
+      "tabela": "1.15.2 Fornecedor",
+      "tipo": "*Módulo",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 17
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Filial",
+      "tabela": "1.15 Filial",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 25,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 18
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Pessoa física e jurídica - Fluxo 1",
+      "tabela": "1.16 Pessoa Física e 1.17 Pessoa Jurídica",
+      "tipo": "**Sempre",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 60,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 19
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Pessoa física - Fluxo 2",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 20
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Pessoa jurídica - Fluxo 3",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 21
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Produto e produto classe",
+      "tabela": "1.08 Produto e 1.10 Produto Classe",
+      "tipo": "*Módulo",
+      "min_config": 960,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 22
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classe de produto",
+      "tabela": "1.09 Classe de Produto",
+      "tipo": "*Módulo",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Potencial Maquinas",
+        "CRM - MM - Chamados",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Viagem",
+        "CRM - MM - Funil de Vendas",
+        "CRM - MM - Levantamento de Rebanho",
+        "CRM - MM - Proposta de Crédito",
+        "CRM - MM - Ordem de Serviço",
+        "CRM - MM - Gestão de Eventos"
+      ],
+      "ordem": 23
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Movimentação financeira - Local nota fiscal",
+      "tabela": "3.1 Local Nota Fiscal",
+      "tipo": "*Módulo",
+      "min_config": 420,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 120,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - MarketShare",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Escoamento de produtos",
+        "CRM - MM - Questionário de Pós Venda",
+        "CRM - MM - Funil de Vendas"
+      ],
+      "ordem": 24
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Movimentação financeira - Faturamento mensal - Parte 1",
+      "tabela": "3.2 Pedidos em Carteira (Fat. Mensal)",
+      "tipo": "*Módulo",
+      "min_config": 30,
+      "min_teste_carga": 0,
+      "min_apoio": 15,
+      "min_validacao": 240,
+      "modulos_ativa": [
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Segmentação",
+        "CRM - MM - Previsão de Vendas",
+        "CRM - MM - Analise de Vendas"
+      ],
+      "ordem": 25
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Movimentação financeira - Faturamento mensal - Parte 2",
+      "tabela": null,
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 26
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Usuários",
+      "tabela": "1.11 Usuário",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 27
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Usuário empresa, filial e parceiro",
+      "tabela": "1.28 Usuário Filial",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 28
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Usuário empresa, filial e parceiro",
+      "tabela": "1.29 Usuário Empresa",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 29
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Usuário empresa, filial e parceiro",
+      "tabela": "1.28 Usuário Parceiro",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 30
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Usuário empresa, filial e parceiro",
+      "tabela": "1.27 Usuário Produto",
+      "tipo": "*Qualifica",
+      "min_config": 10,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 31
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Cultura",
+      "tabela": "1.12 Cultura",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 32
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Safra",
+      "tabela": "1.13 Safra",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Analise de Vendas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 33
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Região",
+      "tabela": "1.19 Região",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 34
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Região local",
+      "tabela": "1.20 Região Local",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 25,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 35
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Usuário região",
+      "tabela": "1.21 Usuário Região",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Potencial & Metas",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 36
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Propriedade",
+      "tabela": "1.22 Propriedade",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Potencial & Metas"
+      ],
+      "ordem": 37
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Vínculo imobiliário",
+      "tabela": "1.23 Vin. Imob.",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Potencial & Metas"
+      ],
+      "ordem": 38
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Posse",
+      "tabela": "1.24 Posse",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita",
+        "CRM - MM - Planejamento da Consultoria Agronômica",
+        "CRM - MM - Campos Demonstrativos",
+        "CRM - MM - Potencial & Metas"
+      ],
+      "ordem": 39
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Arrendamento",
+      "tabela": "1.25 Arrend.",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 40
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Arrendamento",
+      "tabela": "1.26 Região Filial",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 41
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Tipo parceiro",
+      "tabela": "1.33 Tipo Parceiro",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais",
+        "CRM - MM - Registro de Visita"
+      ],
+      "ordem": 42
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Parceiro tipo parceiro",
+      "tabela": "1.34 Parceiro Tipo Parceiro",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Funcionalidades Fundamentais"
+      ],
+      "ordem": 43
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Estoque",
+      "tabela": "3.4 Estoque",
+      "tipo": "*Qualifica",
+      "min_config": 30,
+      "min_teste_carga": 0,
+      "min_apoio": 15,
+      "min_validacao": 60,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 44
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Estoque",
+      "tabela": "3.10 Carga (Romaneios)",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 45
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "1.29 Veículo",
+      "tipo": "*Qualifica",
+      "min_config": 30,
+      "min_teste_carga": 0,
+      "min_apoio": 15,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Viagem"
+      ],
+      "ordem": 46
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "1.30 Centro de Custo",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 47
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "1.31 Usuário Centro de Custo",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 48
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Veiculo",
+      "tabela": "1.32 Despesa",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 49
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Exportação de Despesa de Viagem",
+      "tabela": "4.3 Exportação de Viagem",
+      "tipo": "*Qualifica",
+      "min_config": 900,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Viagem"
+      ],
+      "ordem": 50
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Exportação de Despesa de Viagem",
+      "tabela": "4.4 Rastreador Veículo",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 51
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Silo",
+      "tabela": "1.37 Silo",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 10,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 52
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Silo",
+      "tabela": "1.39 Preço Produto",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 53
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Silo",
+      "tabela": "1.60 Segmentação",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 54
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Silo",
+      "tabela": "3.3 Metas de Venda",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 55
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Movimentação financeira - Histórico de aquisição de produtos",
+      "tabela": "3.8 Histórico Aquisição Produtos",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 56
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Movimentação financeira - Histórico de aquisição de produtos",
+      "tabela": "3.9 Histórico Produção Entregue",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 57
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Movimentação financeira - Histórico de aquisição de produtos",
+      "tabela": "3.11 PCResumoFinanceiro + 3.12 PCResumoTitulos",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 58
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Movimentação financeira - Títulos",
+      "tabela": "3.7 Títulos",
+      "tipo": "*Qualifica",
+      "min_config": 360,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Proposta de Crédito"
+      ],
+      "ordem": 59
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Movimentação financeira - Títulos",
+      "tabela": "1.35 Banco",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 60
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Modalidade Recolhimento Funrural",
+      "tabela": "2.22 Modalidade Recolhimento Funrural",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 61
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Limite de crédito parceiro",
+      "tabela": "1.40 Limite Crédito Parceiro",
+      "tipo": "*Qualifica",
+      "min_config": 30,
+      "min_teste_carga": 0,
+      "min_apoio": 15,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas",
+        "CRM - MM - Proposta de Crédito"
+      ],
+      "ordem": 62
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Pedido - PVPedidoHistoricoSituacao, PVPedidoItemHistoricoSituacao, PVPedidoItemNotaFiscal",
+      "tabela": "2.26 PVPedHistSituacao",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 30,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 63
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Pedido - PVPedidoHistoricoSituacao, PVPedidoItemHistoricoSituacao, PVPedidoItemNotaFiscal",
+      "tabela": "2.27 PVPedItemHistSituacao",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 64
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Pedido - PVPedidoHistoricoSituacao, PVPedidoItemHistoricoSituacao, PVPedidoItemNotaFiscal",
+      "tabela": "2.26 PVPedidoItemNotaFiscal",
+      "tipo": "*Qualifica",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 65
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Lançamento de pedido no AGB",
+      "tabela": "4.0 Exportação de pedido",
+      "tipo": "*Qualifica",
+      "min_config": 900,
+      "min_teste_carga": 0,
+      "min_apoio": 660,
+      "min_validacao": 480,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 66
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Lançamento de pedido barter no AGB",
+      "tabela": "4.1 Exportação de pedido barter",
+      "tipo": "*Qualifica",
+      "min_config": 900,
+      "min_teste_carga": 0,
+      "min_apoio": 375,
+      "min_validacao": 240,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 67
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tipo documento cobrança",
+      "tabela": "2.29 PVTipoDocumentoCobranca",
+      "tipo": "Avaliado",
+      "min_config": 30,
+      "min_teste_carga": 0,
+      "min_apoio": 15,
+      "min_validacao": 15,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 68
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.11 PVTabelaPrecoCondicao",
+      "tipo": "Avaliado",
+      "min_config": 420,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 170,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 69
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.15 PVTabelaPrecoItem",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 70
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.4 PVTabelaPreco",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 71
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.16 PVTabelaPrecoItemProjecao",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 72
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.6 PVTabelaPrecoUsuario",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 73
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.7 PVTabelaPrecoFilial",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 74
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.7 PVTabelaPrecoTipoParceiro",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 75
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tabelas de preço\nForça de venda - Deleção de PVTabelaPrecoItem",
+      "tabela": "2.7 PVTabelaPrecoSafra",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 76
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Tipo de Negociação",
+      "tabela": "2.18 PVTipoDeNegociacao",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 25,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 77
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Condição de pagamento",
+      "tabela": "2.10 PVCondicaoPagamento",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 78
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - PV Condição de pagamento tipo documento cobrança",
+      "tabela": "2,2 PVCondicaoPagamentoTipoDocumentoCobranca",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 79
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Força de venda - Cotação PTAX",
+      "tabela": "CotacaoPTAX",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Consulta Preço e Estoque à Campo",
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 80
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Pessoa física complementar",
+      "tabela": "PessoaFisicaComplementar",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 81
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Cônjuge",
+      "tabela": "Conjuge",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 82
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "ClassificacaoProduto",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 20,
+      "modulos_ativa": [
+        "CRM - MM - Força de Vendas"
+      ],
+      "ordem": 83
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.17 PVCondicaoPagamentoParcela",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 84
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.23 PVTabelaPrecoItemCondicao",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 85
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.25 Condição de Pagamento Safra",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 86
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.30 PVExcecaoCondicaoPagamento",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 87
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.31 PVExcecaoCondicaoPagamentoClasseProduto",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 88
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.32 PVExcecaoCondicaoPagamentoProduto",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 89
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.33 TabelaDePrecoExcecaoClasseDeProduto",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 90
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.13 PVExcecaoTabelaPreco",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 91
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.14 PVExcecaoTabelaPrecoItem",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 92
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.8 PVTabelaPrecoLocalFaturamento",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 93
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.9 PVTabelaPrecoUFDestino",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 94
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.36 PVCampanhaTrocaFilial",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 95
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.42 PVCampanhaOferta",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 96
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "4.1 Ordem de Carregamento",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 97
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "4.2 Substituição de Produtos",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 98
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.12 PVTabelaPrecoCondicaoTabelaFrete",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 99
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.34 FaixaPrecoFrete",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 100
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "2.5 PVTabelaPrecoTabelaFrete",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 101
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.1 Tipos de Solicitação de Serviço",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 102
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.2 Posto de Trabalho",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 103
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.3 SS Solicitação",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 104
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.3 SS Solicitação",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 105
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.5 SS Serviço",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 106
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.6 Máquina",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 107
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.7 Parceiro Máquina",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 108
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.8 Produto Chassi",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 109
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "1.9 Exportar Ordem de Serviço",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 110
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Cadastro básico - Classificação de produto",
+      "tabela": "5.0 Integrar Gestão de Eventos",
+      "tipo": "Avaliado",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 111
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Tipos de integração",
+      "tabela": "horas",
+      "tipo": null,
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 116
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Estimativa de horas geral API padrão",
+      "tabela": "11 days, 23:00:00",
+      "tipo": "está sendo usada",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 117
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Estimativa de horas validação de dados API padrão",
+      "tabela": "9 days, 9:00:00",
+      "tipo": "não estamos usando",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 118
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Estimativa de horas geral API customizada",
+      "tabela": "4 days, 22:10:00",
+      "tipo": "está sendo usada",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 119
+    },
+    {
+      "contexto": "erp_terceiro",
+      "fluxo": "Estimativa de horas validação de dados API customizada",
+      "tabela": "1 day, 16:25:00",
+      "tipo": "não estamos usando",
+      "min_config": 0,
+      "min_teste_carga": 0,
+      "min_apoio": 0,
+      "min_validacao": 0,
+      "modulos_ativa": [],
+      "ordem": 120
+    }
+  ]
+}

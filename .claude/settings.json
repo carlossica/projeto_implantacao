@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python -c \"import openpyxl; print\\('openpyxl', openpyxl.__version__\\)\")",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python \"C:\\\\Users\\\\CARLOS~1.BAR\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--projetos-PROJETOS-IA\\\\056b69b8-ab91-4449-9398-dd18620eb599\\\\scratchpad\\\\inspect_xlsx.py\")"
+    ]
+  }
+}

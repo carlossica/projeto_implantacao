@@ -1,0 +1,264 @@
+{
+  "topicos": [
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "chave": "institucional",
+      "titulo": "Institucional",
+      "descricao": "Informações institucionais do cliente (história, propósito) e expectativas com a aquisição do Clover CRM. Momento de ouvir as dores e desejos do cliente.",
+      "perguntas": [
+        { "texto": "Descreva a história e o propósito da empresa.", "tipo_resposta": "texto" },
+        { "texto": "Quais as expectativas do cliente com a aquisição do Clover CRM?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "chave": "ferramentas",
+      "titulo": "Ferramentas (Sistemas) utilizados",
+      "descricao": "Sistemas/ferramentas que o cliente utiliza (ERP, BI, etc.) — importante para entender integrações e possíveis novos casos.",
+      "perguntas": [
+        { "texto": "Quais sistemas/ferramentas o cliente utiliza hoje? (ERP, BI, etc.)", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "chave": "perfil_acesso",
+      "titulo": "Perfil de acesso e estrutura hierárquica",
+      "descricao": "Perfis de acesso necessários no Clover CRM. Estrutura padrão: Administrador CRM, Gerente, Consultor. Pode ser ajustada à realidade do cliente.",
+      "perguntas": [
+        { "texto": "Quais perfis de acesso serão necessários e qual o objetivo de cada um?", "tipo_resposta": "texto" },
+        { "texto": "Há necessidade de perfis além do padrão (Administrador, Gerente, Consultor)? Qual a diferença de acessos?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "chave": "empresa_filial",
+      "titulo": "Grupo empresarial, empresa e filial",
+      "descricao": "Estrutura de matrizes e filiais, CNPJs e compartilhamento de base cadastral entre empresas.",
+      "perguntas": [
+        { "texto": "A empresa é composta por quantas unidades entre matriz e filial? Identifique-as com seus códigos.", "tipo_resposta": "texto" },
+        { "texto": "O cadastro de empresa e filial será integrado?", "tipo_resposta": "sim_nao" },
+        { "texto": "Qual o CNPJ e o código da matriz principal?", "tipo_resposta": "texto" },
+        { "texto": "A base cadastral poderá ser compartilhada entre as empresas e filiais? Detalhe.", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "chave": "cadastro_usuario",
+      "titulo": "Cadastro de usuário",
+      "descricao": "Usuários que utilizarão o Clover, integração do cadastro e regras de e-mail/senha.",
+      "perguntas": [
+        { "texto": "Quantos usuários utilizarão o Clover CRM?", "tipo_resposta": "texto" },
+        { "texto": "O cadastro de usuário será integrado? (Se SOLUTION, obrigatório)", "tipo_resposta": "sim_nao" },
+        { "texto": "Todos os usuários a integrar possuem endereço de e-mail?", "tipo_resposta": "sim_nao" },
+        { "texto": "Qual a senha a ser utilizada para o primeiro acesso?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "chave": "lead_prospect",
+      "titulo": "Lead, prospect e cadastro de novo parceiro",
+      "descricao": "Processo de captação e conversão de leads até parceiro.",
+      "perguntas": [
+        { "texto": "Clientes em potencial são cadastrados inicialmente como leads?", "tipo_resposta": "sim_nao" },
+        { "texto": "Quais as etapas utilizadas para um lead até sua conversão?", "tipo_resposta": "texto" },
+        { "texto": "A conversão de um lead é feita para prospect ou diretamente para parceiro?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "chave": "cadastro_parceiro",
+      "titulo": "Cadastro de parceiro",
+      "descricao": "Integração do cadastro de parceiros, locais e vínculo de grupo familiar.",
+      "perguntas": [
+        { "texto": "Será integrado todo o cadastro de parceiro ou apenas os ativos? Quantos parceiros ativos com movimentação?", "tipo_resposta": "texto" },
+        { "texto": "Existe o vínculo de parceiro superior (grupo familiar)?", "tipo_resposta": "sim_nao" },
+        { "texto": "Existe distinção entre local de cobrança e local de entrega?", "tipo_resposta": "sim_nao" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "chave": "classe_produto",
+      "titulo": "Classe de produto e produto",
+      "descricao": "Níveis de classe de produto e integração do cadastro de produto. Para máquinas: grupo, marca, linha e família.",
+      "perguntas": [
+        { "texto": "Quantos níveis de classe de produto? Cite exemplos de cada nível.", "tipo_resposta": "texto" },
+        { "texto": "O cadastro de produto será integrado? Apenas ativos?", "tipo_resposta": "texto" },
+        { "texto": "O cadastro contempla máquinas e insumos? Para máquinas, quantos níveis?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Funcionalidades Fundamentais",
+      "chave": "cultura_safra",
+      "titulo": "Cultura e safra",
+      "descricao": "Integração de cultura e safra. No Clover a safra exige vínculo com cultura.",
+      "perguntas": [
+        { "texto": "Será integrado o cadastro de cultura? Se não, quais culturas?", "tipo_resposta": "texto" },
+        { "texto": "Será integrado o cadastro de safra? A partir de qual data de vigência?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Registro de Visita",
+      "chave": "registro_visita",
+      "titulo": "Registro de visita",
+      "descricao": "Agenda e atendimento para registro de ações planejadas e realizadas pela equipe de campo.",
+      "perguntas": [
+        { "texto": "A empresa possui estratégia de CRM para diferenciar o atendimento aos clientes?", "tipo_resposta": "texto" },
+        { "texto": "Quais serão os serviços prestados pela equipe de campo?", "tipo_resposta": "texto" },
+        { "texto": "Qual a frequência de lançamento do planejamento de agendas?", "tipo_resposta": "texto" },
+        { "texto": "Os serviços prestados devem ser separados por área de negócio?", "tipo_resposta": "sim_nao" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Viagem",
+      "chave": "viagem",
+      "titulo": "Viagem",
+      "descricao": "Gestão de despesas de viagens da equipe de campo, com anexos de comprovantes e acerto de viagem.",
+      "perguntas": [
+        { "texto": "Qual o período de fechamento das viagens?", "tipo_resposta": "texto" },
+        { "texto": "Quais os tipos de viagens existentes?", "tipo_resposta": "texto" },
+        { "texto": "Existe limite por tipo de despesa ou por usuário?", "tipo_resposta": "texto" },
+        { "texto": "Existe processo de aprovação das viagens? Quem aprova?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Potencial & Metas",
+      "chave": "potencial_metas",
+      "titulo": "Potencial de venda de insumos e metas de vendas",
+      "descricao": "Plano de safra (potencial de mercado por safra/cultura) e metas de venda por filial/usuário.",
+      "perguntas": [
+        { "texto": "O mapeamento de potencial será por safra e cultura? Quais níveis tecnológicos?", "tipo_resposta": "texto" },
+        { "texto": "É realizado apontamento de metas hoje? Baseado em tabela de preço?", "tipo_resposta": "texto" },
+        { "texto": "A distribuição das metas é por quantidade, valor ou ambos?", "tipo_resposta": "texto" },
+        { "texto": "A meta é lançada por classe de produto ou produto?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Segmentação",
+      "chave": "segmentacao",
+      "titulo": "Segmentação",
+      "descricao": "Categorização de clientes por potencial econômico e comportamento de compra (manual ou via questionário).",
+      "perguntas": [
+        { "texto": "Os clientes são segmentados hoje? Utiliza questionário?", "tipo_resposta": "texto" },
+        { "texto": "Existe mapeamento de quantidade de visitas por perfil segmentado?", "tipo_resposta": "texto" },
+        { "texto": "Deseja seguir a metodologia de segmentação do Clover (potencial econômico e comportamento de compra)?", "tipo_resposta": "sim_nao" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Previsão de Vendas",
+      "chave": "previsao_vendas",
+      "titulo": "Previsão de vendas",
+      "descricao": "Desdobramento da meta pelo consultor por cliente/produto/volume/período. Exige tabela de preço.",
+      "perguntas": [
+        { "texto": "A previsão será feita por safra ou por ano?", "tipo_resposta": "texto" },
+        { "texto": "A tabela de preço virá integrada do ERP ou será feita manualmente?", "tipo_resposta": "texto" },
+        { "texto": "O consultor poderá visualizar o saldo disponível da meta atribuída?", "tipo_resposta": "sim_nao" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Análise de Vendas",
+      "chave": "analise_vendas",
+      "titulo": "Análise de vendas",
+      "descricao": "Painéis de monitoramento e análise de performance do ciclo de vendas.",
+      "perguntas": [
+        { "texto": "A partir de que data (data de corte) integrar as notas fiscais?", "tipo_resposta": "texto" },
+        { "texto": "No faturamento a empresa informa o vendedor responsável pela venda?", "tipo_resposta": "sim_nao" },
+        { "texto": "Quais códigos de operação geram o relatório de pedidos em carteira?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Funil de Vendas",
+      "chave": "funil_vendas",
+      "titulo": "Funil de vendas",
+      "descricao": "Gestão das etapas da prospecção ao fechamento (Oportunidades). Permite gerar pedido a partir da oportunidade.",
+      "perguntas": [
+        { "texto": "Quantos funis serão utilizados?", "tipo_resposta": "texto" },
+        { "texto": "Estão mapeadas as etapas de cada funil?", "tipo_resposta": "texto" },
+        { "texto": "É possível gerar um pedido a partir de uma oportunidade? Em qual etapa/situação?", "tipo_resposta": "texto" },
+        { "texto": "Quais os principais motivos de não fechamento?", "tipo_resposta": "texto" },
+        { "texto": "Utiliza termômetro para a oportunidade ou percentual manual?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Potencial de Máquinas",
+      "chave": "potencial_maquinas",
+      "titulo": "Potencial de máquinas",
+      "descricao": "Avaliação de potencial de peças e serviços por inventário de máquinas dos clientes.",
+      "perguntas": [
+        { "texto": "Será realizado o levantamento de inventário de máquinas dos clientes? E da concorrência?", "tipo_resposta": "texto" },
+        { "texto": "Está mapeado o volume de horas por modelo de equipamento para revisão?", "tipo_resposta": "texto" },
+        { "texto": "Está mapeado o valor de peças e mão de obra para revisão/recondicionamento?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Chamados",
+      "chave": "chamados",
+      "titulo": "Chamados",
+      "descricao": "Registro e gestão do fluxo de solicitações/reclamações de clientes até o feedback final.",
+      "perguntas": [
+        { "texto": "Qual a origem dos chamados?", "tipo_resposta": "texto" },
+        { "texto": "Como é definida a prioridade de cada chamado?", "tipo_resposta": "texto" },
+        { "texto": "Quais os tipos de chamados utilizados por área de negócio?", "tipo_resposta": "texto" },
+        { "texto": "Quem são os responsáveis por cadastrar, analisar e finalizar o chamado?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Ordem de Serviço",
+      "chave": "ordem_servico",
+      "titulo": "Ordem de serviço",
+      "descricao": "Planejamento e acompanhamento da execução de serviços por máquina, com mecânicos e níveis técnicos.",
+      "perguntas": [
+        { "texto": "O cadastro de mecânicos será feito no Clover ou importado do ERP?", "tipo_resposta": "texto" },
+        { "texto": "A Ordem de Serviço será importada ou exportada para o ERP? Quais campos?", "tipo_resposta": "texto" },
+        { "texto": "Já estão mapeados os serviços e os tipos de Ordem de Serviço?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Proposta de Crédito",
+      "chave": "proposta_credito",
+      "titulo": "Proposta de crédito",
+      "descricao": "Processo de proposta/análise de crédito do cliente.",
+      "perguntas": [
+        { "texto": "Como é o processo atual de proposta e análise de crédito?", "tipo_resposta": "texto" },
+        { "texto": "Quais informações e aprovadores são necessários?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "chave": "forca_vendas",
+      "titulo": "Força de vendas",
+      "descricao": "Automação de força de vendas: simulação e geração de pedidos, histórico, margens. Tópico mais extenso.",
+      "perguntas": [
+        { "texto": "Quais informações são obrigatórias no pedido? Relacione os campos.", "tipo_resposta": "texto" },
+        { "texto": "Um item poderá ser inserido mais de uma vez no pedido?", "tipo_resposta": "sim_nao" },
+        { "texto": "Quando o cliente estiver com limite de crédito zerado/negativo, o pedido poderá ser gerado?", "tipo_resposta": "sim_nao" },
+        { "texto": "No ERP é realizado controle de lote no processo de venda?", "tipo_resposta": "sim_nao" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "chave": "fv_tabela_preco",
+      "titulo": "Força de vendas — Tabela de preço",
+      "descricao": "Integração e regras de tabela de preço, descontos, antecipação/postecipação.",
+      "perguntas": [
+        { "texto": "A tabela de preço será integrada? Apenas tabelas específicas?", "tipo_resposta": "texto" },
+        { "texto": "É permitido informar manualmente um desconto comercial no pedido?", "tipo_resposta": "sim_nao" },
+        { "texto": "É definido um percentual máximo de desconto nos itens?", "tipo_resposta": "texto" },
+        { "texto": "Utilizam tabela de preço em dólar? Qual indexador?", "tipo_resposta": "texto" }
+      ]
+    },
+    {
+      "modulo": "CRM - MM - Força de Vendas",
+      "chave": "fv_negociacao_pagamento",
+      "titulo": "Força de vendas — Negociação e pagamento",
+      "descricao": "Tipos de negociação, condição e forma de pagamento, limite de crédito, estoque, frete e comissão.",
+      "perguntas": [
+        { "texto": "Quais os tipos de negociação utilizados? (venda normal, barter, entrega futura, etc.)", "tipo_resposta": "texto" },
+        { "texto": "Quais condições de pagamento serão utilizadas?", "tipo_resposta": "texto" },
+        { "texto": "O limite de crédito deverá ser integrado?", "tipo_resposta": "sim_nao" },
+        { "texto": "O estoque será integrado? Quais tipos de estoque?", "tipo_resposta": "texto" },
+        { "texto": "Faz cobrança de frete? Como é estruturada a tabela de frete?", "tipo_resposta": "texto" },
+        { "texto": "Existe cálculo de comissão prevista no pedido? Qual a regra?", "tipo_resposta": "texto" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_doc": "Percentuais de cada etapa do projeto por módulo (das colunas L/M/N/O/P/Q da aba Funcionalidades). Aplicados sobre as horas marcadas do módulo (G). Go-live multiplica pela qtd de turmas operacionais. Typos da planilha corrigidos: P Segmentação 0.845→0.0845, P Chamados 0.615→0.0615.",
+  "modulos": {
+    "CRM - MM - Funcionalidades Fundamentais": { "lrp": 0.1603, "validacao_dados": 0.1603, "parametrizacao": 0.1603, "treinamento": 0.3187, "validacao_ambiente": 0.0802, "golive": 0.1202 },
+    "CRM - MM - Registro de Visita":          { "lrp": 0.1592, "validacao_dados": 0,      "parametrizacao": 0.1802, "treinamento": 0.2402, "validacao_ambiente": 0.1802, "golive": 0.2402 },
+    "CRM - MM - Potencial & Metas":            { "lrp": 0.1724, "validacao_dados": 0,      "parametrizacao": 0.2759, "treinamento": 0.2759, "validacao_ambiente": 0.1034, "golive": 0.1724 },
+    "CRM - MM - Força de Vendas":              { "lrp": 0.1331, "validacao_dados": 0.2662, "parametrizacao": 0.2662, "treinamento": 0.1997, "validacao_ambiente": 0.068,  "golive": 0.0666 },
+    "CRM - MM - Viagem":                       { "lrp": 0.1087, "validacao_dados": 0.1667, "parametrizacao": 0.1812, "treinamento": 0.2897, "validacao_ambiente": 0.1087, "golive": 0.1449 },
+    "CRM - MM - Segmentação":                  { "lrp": 0.1699, "validacao_dados": 0,      "parametrizacao": 0.0845, "treinamento": 0.4167, "validacao_ambiente": 0.0845, "golive": 0.25 },
+    "CRM - MM - Proposta de Crédito":          { "lrp": 0.1538, "validacao_dados": 0,      "parametrizacao": 0.2308, "treinamento": 0.3077, "validacao_ambiente": 0.0769, "golive": 0.2308 },
+    "CRM - MM - Previsão de Vendas":           { "lrp": 0.0854, "validacao_dados": 0,      "parametrizacao": 0.3333, "treinamento": 0.25,   "validacao_ambiente": 0.0854, "golive": 0.25 },
+    "CRM - MM - Ordem de Serviço":             { "lrp": 0.125,  "validacao_dados": 0,      "parametrizacao": 0.2083, "treinamento": 0.3333, "validacao_ambiente": 0.0854, "golive": 0.25 },
+    "CRM - MM - Funil de Vendas":              { "lrp": 0.1875, "validacao_dados": 0,      "parametrizacao": 0.25,   "treinamento": 0.25,   "validacao_ambiente": 0.0615, "golive": 0.25 },
+    "CRM - MM - Análise de Vendas":            { "lrp": 0.1875, "validacao_dados": 0,      "parametrizacao": 0.25,   "treinamento": 0.25,   "validacao_ambiente": 0.0615, "golive": 0.25 },
+    "CRM - MM - Potencial de Máquinas":        { "lrp": 0.1875, "validacao_dados": 0,      "parametrizacao": 0.25,   "treinamento": 0.25,   "validacao_ambiente": 0.0615, "golive": 0.25 },
+    "CRM - MM - Chamados":                     { "lrp": 0.1875, "validacao_dados": 0,      "parametrizacao": 0.25,   "treinamento": 0.25,   "validacao_ambiente": 0.0615, "golive": 0.25 }
+  }
+}

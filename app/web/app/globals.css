@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+/* Dark mode class-based (Tailwind 4). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Tokens visuais — verde institucional Aliare. */
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --color-aliare-50: #f0fdf4;
+  --color-aliare-100: #dcfce7;
+  --color-aliare-200: #bbf7d0;
+  --color-aliare-300: #86efac;
+  --color-aliare-400: #4ade80;
+  --color-aliare-500: #22c55e;
+  --color-aliare-600: #16a34a;
+  --color-aliare-700: #15803d;
+  --color-aliare-800: #166534;
+  --color-aliare-900: #14532d;
+}
+
+html, body { height: 100%; }
+
+body {
+  background: var(--color-gray-50);
+  color: var(--color-gray-900);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dark body {
+  background: var(--color-gray-950);
+  color: var(--color-gray-100);
+}
+
+.dark input[type="number"], .dark input[type="text"], .dark input[type="email"], .dark input[type="password"] {
+  color-scheme: dark;
+}
+
+/* Scrollbar fina global */
+* { scrollbar-width: thin; scrollbar-color: var(--color-gray-300) transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-gray-300);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.dark *, .dark { scrollbar-color: var(--color-gray-700) transparent; }
+.dark ::-webkit-scrollbar-thumb { background-color: var(--color-gray-700); }
+
+/* ===========================================================================
+ * Impressão / PDF da LRP — padrão do documento Word (Levantamento de Regras
+ * e Processos). A tela (.print\:hidden) some; o documento (.lrp-doc) aparece.
+ * =========================================================================== */
+@media print {
+  @page { size: A4; margin: 20mm 18mm; }
+  aside, header { display: none !important; }
+  main { overflow: visible !important; padding: 0 !important; }
+  html, body { background: #fff !important; }
+  main > div { max-width: none !important; margin: 0 !important; }
+
+  .lrp-doc {
+    color: #111;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* Capa */
+  .lrp-cover {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; min-height: 82vh; break-after: page;
+  }
+  .lrp-cover-kicker { font-size: 17pt; font-weight: 700; letter-spacing: .08em; color: #15803d; }
+  .lrp-cover-sub { font-size: 11pt; letter-spacing: .12em; color: #444; margin-top: 8px; }
+  .lrp-cover-title { font-size: 30pt; font-weight: 800; margin-top: 28px; color: #111; }
+  .lrp-cover-versao { margin-top: 14px; color: #666; font-size: 11pt; }
+
+  .lrp-running {
+    font-size: 8pt; letter-spacing: .06em; color: #777;
+    border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-bottom: 18px; text-transform: uppercase;
+  }
+  .lrp-h2 { font-size: 13pt; font-weight: 700; color: #15803d; margin: 16px 0 6px; break-after: avoid; }
+  .lrp-table { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin-bottom: 14px; }
+  .lrp-table th, .lrp-table td { border: 1px solid #999; padding: 4px 8px; text-align: left; vertical-align: top; }
+  .lrp-table th { background: #f0fdf4; }
+  .lrp-intro { margin: 8px 0 18px; text-align: justify; }
+  .lrp-sumario { margin: 0 0 8px 20px; }
+  .lrp-sumario li { margin: 2px 0; }
+
+  .lrp-secao { break-inside: avoid; margin-top: 20px; }
+  .lrp-secao-titulo {
+    font-size: 12pt; font-weight: 700; color: #111;
+    border-bottom: 2px solid #15803d; padding-bottom: 3px; margin-bottom: 6px; break-after: avoid;
+  }
+  .lrp-secao-desc { font-style: italic; color: #555; font-size: 10pt; margin-bottom: 6px; }
+  .lrp-bullets { margin: 0 0 0 20px; }
+  .lrp-bullets li { margin: 3px 0; list-style: disc; text-align: justify; }
+}

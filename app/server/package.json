@@ -1,0 +1,25 @@
+{
+  "name": "@simulador-clover/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "db:check": "node src/db/check.js",
+    "db:migrate-all": "node src/db/migrate-all.js",
+    "catalogo:importar": "node src/cli/importar-catalogo.js",
+    "lrp:importar-template": "node src/cli/importar-lrp-template.js",
+    "etapas:importar": "node src/cli/importar-etapas.js",
+    "usuario:criar": "node src/cli/usuario-criar.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.13.1"
+  }
+}

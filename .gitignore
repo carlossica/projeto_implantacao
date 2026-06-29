@@ -1,0 +1,15 @@
+# Dependências
+node_modules/
+app/node_modules/
+
+# Build / cache
+app/web/.next/
+app/web/tsconfig.tsbuildinfo
+app/server/data/
+
+# Logs
+*.log
+
+# Evidencias: manter apenas a planilha do Simulador, ignorar áudios/PDFs/docs
+Evidencias/*
+!Evidencias/Simulador Clover MÁQUINAS - Por funcionalidade - v11052026.1 (1).xlsx
