@@ -6,6 +6,7 @@ import type { FluxoIntegracao, Modulo } from "@/lib/types";
 import { PageHeader } from "@/components/page-header";
 import { horas } from "@/lib/format";
 import { useAuth } from "@/components/auth-provider";
+import { AdminGuard } from "@/components/admin-guard";
 
 const CONTEXTOS = [
   { chave: "solution", label: "Aliare Integra Solution" },
@@ -13,6 +14,10 @@ const CONTEXTOS = [
 ];
 
 export default function IntegracaoPage() {
+  return <AdminGuard><IntegracaoConteudo /></AdminGuard>;
+}
+
+function IntegracaoConteudo() {
   const { ehAdmin } = useAuth();
   const [contexto, setContexto] = useState("solution");
   const [fluxos, setFluxos] = useState<FluxoIntegracao[]>([]);

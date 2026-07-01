@@ -146,8 +146,11 @@ export default function NovaSimulacao() {
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Fator de gestão de projeto</label>
-              <input type="number" min={0} step={0.01} value={fatorGestao} onChange={(e) => setFatorGestao(Number(e.target.value))} className={inputCls} />
-              <span className="text-[11px] text-gray-400">Ex.: 0,08 = 8% sobre as demais etapas.</span>
+              <div className="flex items-center gap-1.5">
+                <input type="number" min={0} step={0.5} value={Number((fatorGestao * 100).toFixed(2))} onChange={(e) => setFatorGestao(Number(e.target.value) / 100)} className={inputCls} />
+                <span className="text-sm text-gray-400">%</span>
+              </div>
+              <span className="text-[11px] text-gray-400">Percentual aplicado sobre as demais etapas. Ex.: 8 = 8%.</span>
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Tipo de hospedagem</label>
@@ -156,10 +159,13 @@ export default function NovaSimulacao() {
                 {hospedagens.map((hp) => <option key={hp.id} value={hp.id}>{hp.nome}</option>)}
               </select>
             </div>
-            <label className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 sm:col-span-2">
-              <input type="checkbox" checked={prodHomolog} onChange={(e) => setProdHomolog(e.target.checked)} className="rounded accent-aliare-600" />
-              Ambiente de produção + homologação
-            </label>
+            <div className="sm:col-span-2">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Será utilizado ambiente de homologação?</label>
+              <select value={prodHomolog ? "sim" : "nao"} onChange={(e) => setProdHomolog(e.target.value === "sim")} className={inputCls}>
+                <option value="nao">Não</option>
+                <option value="sim">Sim</option>
+              </select>
+            </div>
           </div>
         </section>
 

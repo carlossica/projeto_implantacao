@@ -4,11 +4,16 @@ import { useEffect, useState } from "react";
 import { apiGet, apiPost, apiPut, apiDelete } from "@/lib/api";
 import type { Modulo, Funcionalidade } from "@/lib/types";
 import { PageHeader } from "@/components/page-header";
+import { AdminGuard } from "@/components/admin-guard";
 import { horas } from "@/lib/format";
 
 const TIPOS = ["Obrigatório", "Opcional", "Opcional, pode ser necessário"];
 
 export default function CatalogoPage() {
+  return <AdminGuard><CatalogoConteudo /></AdminGuard>;
+}
+
+function CatalogoConteudo() {
   const [modulos, setModulos] = useState<Modulo[]>([]);
   const [erro, setErro] = useState<string | null>(null);
   const [aberto, setAberto] = useState<number | null>(null);

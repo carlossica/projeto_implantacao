@@ -4,8 +4,13 @@ import { useEffect, useState } from "react";
 import { apiGet, apiPost, apiPut, apiDelete } from "@/lib/api";
 import type { Usuario, Papel } from "@/lib/types";
 import { PageHeader } from "@/components/page-header";
+import { AdminGuard } from "@/components/admin-guard";
 
 export default function UsuariosPage() {
+  return <AdminGuard><UsuariosConteudo /></AdminGuard>;
+}
+
+function UsuariosConteudo() {
   const [usuarios, setUsuarios] = useState<Usuario[]>([]);
   const [erro, setErro] = useState<string | null>(null);
   const [form, setForm] = useState({ nome: "", email: "", senha: "", papel: "editor" as Papel });

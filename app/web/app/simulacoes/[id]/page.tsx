@@ -366,8 +366,11 @@ function ParametrosPanel({
           <input type="number" min={1} value={f.fases} onChange={(e) => setF({ ...f, fases: Number(e.target.value) })} className={inputCls} />
         </div>
         <div>
-          <label className="block text-xs text-gray-500 mb-1">Fator de gestão de projeto</label>
-          <input type="number" min={0} step={0.01} value={f.fator_gestao} onChange={(e) => setF({ ...f, fator_gestao: Number(e.target.value) })} className={inputCls} />
+          <label className="block text-xs text-gray-500 mb-1">Fator de gestão de projeto (%)</label>
+          <div className="flex items-center gap-1.5">
+            <input type="number" min={0} step={0.5} value={Number((f.fator_gestao * 100).toFixed(2))} onChange={(e) => setF({ ...f, fator_gestao: Number(e.target.value) / 100 })} className={inputCls} />
+            <span className="text-sm text-gray-400">%</span>
+          </div>
         </div>
         <div>
           <label className="block text-xs text-gray-500 mb-1">Tipo de hospedagem</label>
@@ -376,10 +379,12 @@ function ParametrosPanel({
             {hospedagens.map((hp) => <option key={hp.id} value={hp.id}>{hp.nome}</option>)}
           </select>
         </div>
-        <div className="flex items-end">
-          <label className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
-            <input type="checkbox" checked={f.ambiente_prod_homolog} onChange={(e) => setF({ ...f, ambiente_prod_homolog: e.target.checked })} className="rounded accent-aliare-600" /> Prod+Homolog
-          </label>
+        <div>
+          <label className="block text-xs text-gray-500 mb-1">Será utilizado ambiente de homologação?</label>
+          <select value={f.ambiente_prod_homolog ? "sim" : "nao"} onChange={(e) => setF({ ...f, ambiente_prod_homolog: e.target.value === "sim" })} className={inputCls}>
+            <option value="nao">Não</option>
+            <option value="sim">Sim</option>
+          </select>
         </div>
       </div>
 

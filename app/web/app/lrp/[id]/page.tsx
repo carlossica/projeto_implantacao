@@ -1,13 +1,14 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
-import { apiGet, apiPut } from "@/lib/api";
+import { apiGet, apiPut, apiDelete } from "@/lib/api";
 import type { Lrp } from "@/lib/types";
 
 export default function LrpDetalhePage() {
   const params = useParams();
+  const router = useRouter();
   const id = Number(params.id);
   const [lrp, setLrp] = useState<Lrp | null>(null);
   const [erro, setErro] = useState<string | null>(null);
@@ -33,6 +34,13 @@ export default function LrpDetalhePage() {
     carregar();
   }
 
+  async function excluir() {
+    if (!lrp) return;
+    if (!confirm(`Excluir a LRP "${lrp.nome}" (v${lrp.versao})? Esta ação não pode ser desfeita.`)) return;
+    try { await apiDelete(`/lrp/${id}`); router.push("/lrp"); }
+    catch (err) { setErro(err instanceof Error ? err.message : "Erro"); }
+  }
+
   if (erro) return <div className="text-sm text-red-600 dark:text-red-400">{erro}</div>;
   if (!lrp) return <div className="text-sm text-gray-500 dark:text-gray-400">Carregando…</div>;
 
@@ -55,6 +63,7 @@ export default function LrpDetalhePage() {
           <button onClick={alternarStatus} className={"rounded-md px-3 py-1.5 text-sm font-medium text-white " + (lrp.status === "finalizada" ? "bg-amber-600 hover:bg-amber-700" : "bg-aliare-600 hover:bg-aliare-700")}>
             {lrp.status === "finalizada" ? "Reabrir" : "Finalizar"}
           </button>
+          <button onClick={excluir} className="rounded-md border border-red-300 dark:border-red-800 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/30 px-3 py-1.5 text-sm font-medium">Excluir</button>
         </div>
       </div>
 

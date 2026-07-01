@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { apiGet, apiPut, apiPost, apiDelete } from "@/lib/api";
 import type { Configuracao, Erp, TipoHospedagem } from "@/lib/types";
 import { PageHeader } from "@/components/page-header";
+import { AdminGuard } from "@/components/admin-guard";
 
 type Unidade = "percent" | "horas" | "usuarios" | "consultores";
 
@@ -55,6 +56,10 @@ const ORDEM_CONFIG = [
 const SUFIXO: Record<Unidade, string> = { percent: "%", horas: "h", usuarios: "usuários", consultores: "consultores" };
 
 export default function ConfiguracoesPage() {
+  return <AdminGuard><ConfiguracoesConteudo /></AdminGuard>;
+}
+
+function ConfiguracoesConteudo() {
   const [configs, setConfigs] = useState<Configuracao[]>([]);
   const [erps, setErps] = useState<Erp[]>([]);
   const [hospedagens, setHospedagens] = useState<TipoHospedagem[]>([]);
