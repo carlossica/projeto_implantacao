@@ -18,7 +18,7 @@ const ICONES: Record<IconeNome, React.ReactNode> = {
   docs: <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />,
 };
 
-export function Sidebar() {
+export function Sidebar({ recolhido = false }: { recolhido?: boolean }) {
   const pathname = usePathname();
   const { usuario } = useAuth();
   const ehAdmin = !!usuario && usuario.papel === "admin";
@@ -29,21 +29,29 @@ export function Sidebar() {
   })).filter((s) => s.itens.length > 0);
 
   return (
-    <aside className="shrink-0 w-72 border-r border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-950 flex flex-col">
-      <div className="h-14 shrink-0 border-b border-gray-200 dark:border-gray-800 flex items-center px-4 gap-2">
-        <AliareLogo className="h-5 w-auto shrink-0 block dark:hidden" />
-        <AliareLogo variant="light" className="h-5 w-auto shrink-0 hidden dark:block" />
-        <span className="text-xs font-semibold text-gray-600 dark:text-gray-300 leading-none">
-          Simulador Clover
-        </span>
+    <aside className={"shrink-0 border-r border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-950 flex flex-col transition-[width] duration-200 " + (recolhido ? "w-16" : "w-72")}>
+      <div className={"h-14 shrink-0 border-b border-gray-200 dark:border-gray-800 flex items-center gap-2 " + (recolhido ? "justify-center px-0" : "px-4")}>
+        {recolhido ? (
+          <span className="w-8 h-8 rounded-md bg-aliare-600 text-white text-xs font-bold flex items-center justify-center" title="Simulador Clover">SC</span>
+        ) : (
+          <>
+            <AliareLogo className="h-5 w-auto shrink-0 block dark:hidden" />
+            <AliareLogo variant="light" className="h-5 w-auto shrink-0 hidden dark:block" />
+            <span className="text-xs font-semibold text-gray-600 dark:text-gray-300 leading-none">
+              Simulador Clover
+            </span>
+          </>
+        )}
       </div>
 
-      <nav className="flex-1 pt-6 pb-4 px-3 space-y-6 overflow-y-auto">
+      <nav className={"flex-1 pt-6 pb-4 space-y-6 overflow-y-auto overflow-x-hidden " + (recolhido ? "px-2" : "px-3")}>
         {secoes.map((secao) => (
           <div key={secao.titulo}>
-            <div className="px-2 mb-2 text-[10px] font-semibold uppercase tracking-wider text-gray-400">
-              {secao.titulo}
-            </div>
+            {!recolhido && (
+              <div className="px-2 mb-2 text-[10px] font-semibold uppercase tracking-wider text-gray-400">
+                {secao.titulo}
+              </div>
+            )}
             <ul className="space-y-0.5">
               {secao.itens.map((item) => {
                 const ativo =
@@ -53,8 +61,10 @@ export function Sidebar() {
                   <li key={item.chave}>
                     <Link
                       href={item.chave}
+                      title={recolhido ? item.label : undefined}
                       className={
-                        "flex items-center gap-2.5 rounded-md px-3 py-2 text-sm transition-colors " +
+                        "flex items-center gap-2.5 rounded-md py-2 text-sm transition-colors " +
+                        (recolhido ? "justify-center px-0" : "px-3") + " " +
                         (ativo
                           ? "bg-aliare-600 text-white font-medium"
                           : "text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800")
@@ -63,7 +73,7 @@ export function Sidebar() {
                       <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
                         {ICONES[item.icone]}
                       </svg>
-                      <span className="truncate">{item.label}</span>
+                      {!recolhido && <span className="truncate">{item.label}</span>}
                     </Link>
                   </li>
                 );

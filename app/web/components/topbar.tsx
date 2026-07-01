@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { useAuth } from "@/components/auth-provider";
 import { useTema } from "@/components/theme-provider";
 
-export function Topbar() {
+export function Topbar({ recolhido = false, onAlternarSidebar }: { recolhido?: boolean; onAlternarSidebar?: () => void }) {
   const { usuario, sair } = useAuth();
   const { tema, alternar } = useTema();
   const [aberto, setAberto] = useState(false);
@@ -31,7 +31,18 @@ export function Topbar() {
   const iniciais = usuario.nome.split(" ").map((p) => p[0]).slice(0, 2).join("").toUpperCase();
 
   return (
-    <header className="h-14 shrink-0 border-b border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-950 flex items-center justify-end px-6">
+    <header className="h-14 shrink-0 border-b border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-950 flex items-center justify-between px-6">
+      <button
+        type="button"
+        onClick={onAlternarSidebar}
+        title={recolhido ? "Expandir menu" : "Recolher menu"}
+        aria-label={recolhido ? "Expandir menu lateral" : "Recolher menu lateral"}
+        className="rounded-md p-2 -ml-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+      >
+        <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
+          <path fillRule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 5A.75.75 0 012.75 9h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 9.75zm0 5A.75.75 0 012.75 14h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 14.75z" clipRule="evenodd" />
+        </svg>
+      </button>
       <div ref={ref} className="relative">
         <button
           type="button"
