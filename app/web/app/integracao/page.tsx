@@ -51,7 +51,7 @@ function IntegracaoConteudo() {
   const numCls = "rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-1.5 py-1 text-sm text-gray-900 dark:text-gray-100 w-16 text-right";
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-[1600px] mx-auto">
       <PageHeader titulo="Fluxos de Integração" descricao="Horas por fluxo (Aliare Integra). Um fluxo conta nas horas quando algum módulo contratado o ativa." />
       {erro && <div className="mb-4 text-sm text-red-600 dark:text-red-400">{erro}</div>}
 

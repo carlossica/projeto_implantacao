@@ -71,7 +71,7 @@ function CatalogoConteudo() {
   const inputCls = "rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-2 py-1 text-sm text-gray-900 dark:text-gray-100";
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-[1600px] mx-auto">
       <PageHeader titulo="Módulos & Funcionalidades" descricao="Mantenha o catálogo: crie módulos, funcionalidades, edite tipo, horas e pacote padrão." />
       {erro && <div className="mb-4 text-sm text-red-600 dark:text-red-400">{erro}</div>}
 

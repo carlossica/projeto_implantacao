@@ -109,7 +109,7 @@ export default function EditarSimulacao() {
   const modulosDisponiveis = modulos.filter((m) => !contratados.has(m.id));
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-[1600px] mx-auto">
       <div className="flex items-start justify-between gap-4 mb-4">
         <div className="min-w-0">
           <Link href="/" className="text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-aliare-600">← Voltar</Link>
