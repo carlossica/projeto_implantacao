@@ -195,11 +195,18 @@ function NovoFluxo({ contexto, modulos, onCriado, onErro }: { contexto: string; 
         <input type="number" min={0} value={form.min_validacao} onChange={(e) => setForm({ ...form, min_validacao: Number(e.target.value) })} placeholder="Validação (min)" className={inputCls} />
       </div>
       <div>
-        <div className="flex items-center gap-2 mb-1">
+        <div className="flex items-center gap-2 mb-1.5">
           <div className="text-xs text-gray-500">Módulos que ativam este fluxo:</div>
-          <span className="text-[10px] text-gray-400">{mods.size} sel.</span>
-          <button type="button" onClick={() => setMods(new Set(modulos.map((m) => m.nome)))} className="ml-auto text-[10px] text-aliare-600 hover:text-aliare-700">Marcar todos</button>
-          <button type="button" onClick={() => setMods(new Set())} className="text-[10px] text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">Limpar</button>
+          <span className="text-[10px] text-gray-400">{mods.size} selecionado(s)</span>
+          <button type="button" onClick={() => setMods(new Set(modulos.map((m) => m.nome)))} className="ml-auto rounded border border-aliare-300 dark:border-aliare-700 text-aliare-700 dark:text-aliare-300 hover:bg-aliare-50 dark:hover:bg-aliare-900/30 text-[11px] font-medium px-2 py-0.5">Marcar todos</button>
+          <button
+            type="button"
+            onClick={() => setMods(new Set())}
+            disabled={mods.size === 0}
+            className="rounded border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 text-[11px] font-medium px-2 py-0.5 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-transparent"
+          >
+            Limpar seleção
+          </button>
         </div>
         <input value={busca} onChange={(e) => setBusca(e.target.value)} placeholder="Buscar módulo…" className={inputCls + " w-full mb-1.5 text-xs"} />
         <div className="flex flex-wrap gap-1.5 max-h-32 overflow-y-auto">
