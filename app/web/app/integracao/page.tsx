@@ -141,10 +141,10 @@ function EditorModulos({ fluxo, modulos, onSalvar, onFechar }: { fluxo: FluxoInt
         <input value={busca} onChange={(e) => setBusca(e.target.value)} placeholder="Buscar módulo…" className="flex-1 rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-2 py-1 text-xs text-gray-900 dark:text-gray-100" />
         <span className="text-[10px] text-gray-400 whitespace-nowrap">{sel.size} sel.</span>
       </div>
-      <div className="flex items-center gap-3 mb-2">
-        <button type="button" onClick={() => aplicar(new Set(modulos.map((m) => m.nome)))} className="text-[10px] text-aliare-600 hover:text-aliare-700">Marcar todos</button>
-        <button type="button" onClick={() => aplicar(new Set())} className="text-[10px] text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">Limpar</button>
-        <button type="button" onClick={onFechar} className="ml-auto text-[10px] text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">Fechar</button>
+      <div className="flex items-center gap-2 mb-2">
+        <button type="button" onClick={() => aplicar(new Set(modulos.map((m) => m.nome)))} className="rounded border border-aliare-300 dark:border-aliare-700 text-aliare-700 dark:text-aliare-300 hover:bg-aliare-50 dark:hover:bg-aliare-900/30 text-[11px] font-medium px-2 py-0.5">Marcar todos</button>
+        <button type="button" onClick={() => aplicar(new Set())} disabled={sel.size === 0} className="rounded border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 text-[11px] font-medium px-2 py-0.5 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-transparent">Limpar seleção</button>
+        <button type="button" onClick={onFechar} className="ml-auto rounded border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 text-[11px] font-medium px-2 py-0.5">Fechar</button>
       </div>
       <div className="max-h-48 overflow-y-auto space-y-1">
         {filtrados.length === 0 && <div className="text-[10px] text-gray-400">nenhum módulo</div>}
