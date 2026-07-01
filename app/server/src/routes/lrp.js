@@ -28,6 +28,12 @@ lrpRouter.put('/:id', async (req, res, next) => {
   catch (err) { next(err); }
 });
 
+// Redefine a LRP para o estado inicial (regenera do template da simulação).
+lrpRouter.post('/:id/redefinir', async (req, res, next) => {
+  try { res.json({ lrp: await lrp.redefinir(Number(req.params.id)) }); }
+  catch (err) { next(err); }
+});
+
 lrpRouter.put('/respostas/:respostaId', async (req, res, next) => {
   try { await lrp.salvarResposta(Number(req.params.respostaId), req.body?.resposta); res.json({ ok: true }); }
   catch (err) { next(err); }
