@@ -57,7 +57,7 @@ export default function LrpDetalhePage() {
     <div className="max-w-4xl mx-auto">
       <div className="flex items-start justify-between gap-4 mb-6 print:hidden">
         <div className="min-w-0">
-          <Link href="/lrp" className="text-sm font-semibold text-gray-500 hover:text-aliare-600">← Voltar</Link>
+          <Link href="/lrp" className="text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-aliare-600">← Voltar</Link>
           <h1 className="text-xl font-semibold text-gray-900 dark:text-gray-100">{lrp.nome} <span className="text-sm font-normal text-gray-400">v{lrp.versao}</span></h1>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             {lrp.cliente_nome ? `${lrp.cliente_nome} · ` : ""}{lrp.itens?.length ?? 0} tópicos
