@@ -163,7 +163,10 @@ function NovoFluxo({ contexto, modulos, onCriado, onErro }: { contexto: string; 
   const [aberto, setAberto] = useState(false);
   const [form, setForm] = useState({ fluxo: "", tabela: "", min_config: 0, min_teste_carga: 0, min_apoio: 0, min_validacao: 0 });
   const [mods, setMods] = useState<Set<string>>(new Set());
+  const [busca, setBusca] = useState("");
   const inputCls = "rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-2 py-1.5 text-sm text-gray-900 dark:text-gray-100";
+  const nomeCurto = (m: string) => m.replace("CRM - MM - ", "");
+  const filtrados = modulos.filter((m) => nomeCurto(m.nome).toLowerCase().includes(busca.trim().toLowerCase()));
 
   async function criar() {
     if (!form.fluxo.trim() && !form.tabela.trim()) { onErro("Informe ao menos o nome do fluxo ou da tabela."); return; }
@@ -171,6 +174,7 @@ function NovoFluxo({ contexto, modulos, onCriado, onErro }: { contexto: string; 
       await apiPost("/catalogo/fluxos-integracao", { contexto, ...form, modulos_ativa: [...mods] });
       setForm({ fluxo: "", tabela: "", min_config: 0, min_teste_carga: 0, min_apoio: 0, min_validacao: 0 });
       setMods(new Set());
+      setBusca("");
       setAberto(false);
       onCriado();
     } catch (err) { onErro(err instanceof Error ? err.message : "Erro"); }
@@ -191,20 +195,27 @@ function NovoFluxo({ contexto, modulos, onCriado, onErro }: { contexto: string; 
         <input type="number" min={0} value={form.min_validacao} onChange={(e) => setForm({ ...form, min_validacao: Number(e.target.value) })} placeholder="Validação (min)" className={inputCls} />
       </div>
       <div>
-        <div className="text-xs text-gray-500 mb-1">Módulos que ativam este fluxo:</div>
+        <div className="flex items-center gap-2 mb-1">
+          <div className="text-xs text-gray-500">Módulos que ativam este fluxo:</div>
+          <span className="text-[10px] text-gray-400">{mods.size} sel.</span>
+          <button type="button" onClick={() => setMods(new Set(modulos.map((m) => m.nome)))} className="ml-auto text-[10px] text-aliare-600 hover:text-aliare-700">Marcar todos</button>
+          <button type="button" onClick={() => setMods(new Set())} className="text-[10px] text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">Limpar</button>
+        </div>
+        <input value={busca} onChange={(e) => setBusca(e.target.value)} placeholder="Buscar módulo…" className={inputCls + " w-full mb-1.5 text-xs"} />
         <div className="flex flex-wrap gap-1.5 max-h-32 overflow-y-auto">
-          {modulos.map((m) => {
+          {filtrados.length === 0 && <span className="text-xs text-gray-400">nenhum módulo</span>}
+          {filtrados.map((m) => {
             const on = mods.has(m.nome);
             return (
               <button key={m.id} type="button" onClick={() => setMods((cur) => { const n = new Set(cur); if (n.has(m.nome)) n.delete(m.nome); else n.add(m.nome); return n; })} className={"text-xs px-2 py-1 rounded border " + (on ? "border-aliare-500 bg-aliare-50 dark:bg-aliare-900/30 text-aliare-700 dark:text-aliare-300" : "border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-300")}>
-                {m.nome.replace("CRM - MM - ", "")}
+                {nomeCurto(m.nome)}
               </button>
             );
           })}
         </div>
       </div>
       <div className="flex justify-end gap-2">
-        <button onClick={() => setAberto(false)} className="rounded-md border border-gray-300 dark:border-gray-700 px-3 py-1.5 text-sm text-gray-700 dark:text-gray-200">Cancelar</button>
+        <button onClick={() => { setAberto(false); setBusca(""); }} className="rounded-md border border-gray-300 dark:border-gray-700 px-3 py-1.5 text-sm text-gray-700 dark:text-gray-200">Cancelar</button>
         <button onClick={criar} className="rounded-md bg-aliare-600 hover:bg-aliare-700 text-white text-sm font-medium px-4 py-1.5">Criar fluxo</button>
       </div>
     </div>
