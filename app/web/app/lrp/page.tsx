@@ -28,7 +28,7 @@ export default function LrpListaPage() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-7xl mx-auto">
       <PageHeader
         titulo="LRP — Levantamento de Regras e Processos"
         descricao="As LRPs são geradas a partir de uma simulação, trazendo só os módulos contratados."

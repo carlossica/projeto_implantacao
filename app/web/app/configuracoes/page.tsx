@@ -112,7 +112,7 @@ function ConfiguracoesConteudo() {
   const inputCls = "rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-2 py-1.5 text-sm text-gray-900 dark:text-gray-100";
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-5xl mx-auto">
       <PageHeader titulo="Configurações Gerais" descricao="Constantes do cálculo, horas de instalação por ERP e tipos de hospedagem." acao={msg ? <span className="text-sm text-aliare-600">{msg}</span> : undefined} />
       {erro && <div className="mb-4 text-sm text-red-600 dark:text-red-400">{erro}</div>}
 

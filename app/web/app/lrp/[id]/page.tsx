@@ -54,7 +54,7 @@ export default function LrpDetalhePage() {
   const inputCls = "w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-aliare-500";
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-5xl mx-auto">
       <div className="flex items-start justify-between gap-4 mb-6 print:hidden">
         <div className="min-w-0">
           <Link href="/lrp" className="text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-aliare-600">← Voltar</Link>
