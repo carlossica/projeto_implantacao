@@ -223,8 +223,14 @@ export default function EditarSimulacao() {
 
         {/* Coluna direita: resultado (sticky) */}
         <div className="lg:sticky lg:top-4 self-start">
-          <div className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5">
-            <h2 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-4">Estimativa de horas</h2>
+          <div className="rounded-xl border-2 border-aliare-500 dark:border-aliare-600 bg-white dark:bg-gray-900 shadow-lg shadow-aliare-600/10 overflow-hidden">
+            <div className="bg-aliare-600 px-5 py-3 flex items-center gap-2">
+              <svg className="w-5 h-5 text-white shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.5 2.5a1 1 0 001.414-1.414L11 9.586V6z" clipRule="evenodd" />
+              </svg>
+              <h2 className="text-base font-bold text-white tracking-tight">Estimativa de Horas</h2>
+            </div>
+            <div className="p-5">
             {r ? (
               <>
                 <div className="text-center mb-5">
@@ -272,6 +278,7 @@ export default function EditarSimulacao() {
             ) : (
               <p className="text-sm text-gray-500 dark:text-gray-400">Sem dados.</p>
             )}
+            </div>
           </div>
         </div>
       </div>
