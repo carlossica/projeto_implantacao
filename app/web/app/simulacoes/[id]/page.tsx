@@ -112,7 +112,7 @@ export default function EditarSimulacao() {
     <div className="max-w-7xl mx-auto">
       <div className="flex items-start justify-between gap-4 mb-4">
         <div className="min-w-0">
-          <Link href="/" className="text-sm text-gray-400 hover:text-aliare-600">← Voltar</Link>
+          <Link href="/" className="text-sm font-semibold text-gray-500 hover:text-aliare-600">← Voltar</Link>
           <h1 className="text-xl font-semibold text-gray-900 dark:text-gray-100 truncate">{sim.nome}</h1>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             {sim.cliente_nome ? `${sim.cliente_nome} · ` : ""}{sim.erp_nome ?? "—"} · {sim.metodo_nome ?? "sem integração"} · {sim.num_usuarios} usuários
