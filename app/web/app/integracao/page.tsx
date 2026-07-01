@@ -91,23 +91,22 @@ export default function IntegracaoPage() {
                     {f.modulos_ativa.length === 0 && <span className="text-xs text-gray-400">nenhum</span>}
                     {f.modulos_ativa.slice(0, 3).map((m) => <span key={m} className="text-[10px] px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400">{m.replace("CRM - MM - ", "")}</span>)}
                     {f.modulos_ativa.length > 3 && <span className="text-[10px] text-gray-400">+{f.modulos_ativa.length - 3}</span>}
-                    {ehAdmin && <button onClick={() => setEditandoModulos(editandoModulos === f.id ? null : f.id)} className="text-[10px] text-aliare-600 hover:text-aliare-700 ml-1">editar</button>}
+                    {ehAdmin && (
+                      <button
+                        onClick={() => setEditandoModulos(editandoModulos === f.id ? null : f.id)}
+                        className="ml-1 rounded border border-aliare-300 dark:border-aliare-700 text-aliare-700 dark:text-aliare-300 hover:bg-aliare-50 dark:hover:bg-aliare-900/30 text-[11px] font-medium px-2 py-0.5"
+                      >
+                        {editandoModulos === f.id ? "Fechar" : "Editar módulos"}
+                      </button>
+                    )}
                   </div>
                   {ehAdmin && editandoModulos === f.id && (
-                    <div className="mt-2 p-2 rounded border border-gray-200 dark:border-gray-700 max-h-48 overflow-y-auto space-y-1">
-                      {modulos.map((m) => {
-                        const on = f.modulos_ativa.includes(m.nome);
-                        return (
-                          <label key={m.id} className="flex items-center gap-2 text-xs text-gray-600 dark:text-gray-300">
-                            <input type="checkbox" checked={on} onChange={(e) => {
-                              const novo = e.target.checked ? [...f.modulos_ativa, m.nome] : f.modulos_ativa.filter((x) => x !== m.nome);
-                              salvar(f, { modulos_ativa: novo });
-                            }} className="rounded accent-aliare-600" />
-                            {m.nome.replace("CRM - MM - ", "")}
-                          </label>
-                        );
-                      })}
-                    </div>
+                    <EditorModulos
+                      fluxo={f}
+                      modulos={modulos}
+                      onSalvar={(novo) => salvar(f, { modulos_ativa: novo })}
+                      onFechar={() => setEditandoModulos(null)}
+                    />
                   )}
                 </td>
                 {ehAdmin && <td className="px-2 py-2 text-right"><button onClick={() => excluir(f)} className="text-xs text-red-500 hover:text-red-600">Excluir</button></td>}
@@ -115,6 +114,46 @@ export default function IntegracaoPage() {
             ))}
           </tbody>
         </table>
+      </div>
+    </div>
+  );
+}
+
+function EditorModulos({ fluxo, modulos, onSalvar, onFechar }: { fluxo: FluxoIntegracao; modulos: Modulo[]; onSalvar: (novo: string[]) => void; onFechar: () => void }) {
+  // Estado local inicializado uma vez a partir do fluxo. Cada alteração salva o
+  // conjunto completo a partir daqui (não do `fluxo`, que pode estar defasado),
+  // evitando perda de marcações ao alternar vários módulos em sequência.
+  const [sel, setSel] = useState<Set<string>>(() => new Set(fluxo.modulos_ativa));
+  const [busca, setBusca] = useState("");
+  const nomeCurto = (m: string) => m.replace("CRM - MM - ", "");
+  const filtrados = modulos.filter((m) => nomeCurto(m.nome).toLowerCase().includes(busca.trim().toLowerCase()));
+
+  function aplicar(next: Set<string>) { setSel(next); onSalvar([...next]); }
+  function toggle(nome: string) {
+    const next = new Set(sel);
+    if (next.has(nome)) next.delete(nome); else next.add(nome);
+    aplicar(next);
+  }
+
+  return (
+    <div className="mt-2 p-2 rounded border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 w-72">
+      <div className="flex items-center gap-2 mb-2">
+        <input value={busca} onChange={(e) => setBusca(e.target.value)} placeholder="Buscar módulo…" className="flex-1 rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-2 py-1 text-xs text-gray-900 dark:text-gray-100" />
+        <span className="text-[10px] text-gray-400 whitespace-nowrap">{sel.size} sel.</span>
+      </div>
+      <div className="flex items-center gap-3 mb-2">
+        <button type="button" onClick={() => aplicar(new Set(modulos.map((m) => m.nome)))} className="text-[10px] text-aliare-600 hover:text-aliare-700">Marcar todos</button>
+        <button type="button" onClick={() => aplicar(new Set())} className="text-[10px] text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">Limpar</button>
+        <button type="button" onClick={onFechar} className="ml-auto text-[10px] text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">Fechar</button>
+      </div>
+      <div className="max-h-48 overflow-y-auto space-y-1">
+        {filtrados.length === 0 && <div className="text-[10px] text-gray-400">nenhum módulo</div>}
+        {filtrados.map((m) => (
+          <label key={m.id} className="flex items-center gap-2 text-xs text-gray-600 dark:text-gray-300">
+            <input type="checkbox" checked={sel.has(m.nome)} onChange={() => toggle(m.nome)} className="rounded accent-aliare-600" />
+            {nomeCurto(m.nome)}
+          </label>
+        ))}
       </div>
     </div>
   );
