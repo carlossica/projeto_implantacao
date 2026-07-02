@@ -13,6 +13,7 @@
     "lrp:importar-template": "node src/cli/importar-lrp-template.js",
     "etapas:importar": "node src/cli/importar-etapas.js",
     "fluxos:expandir-funcionalidades": "node src/cli/expandir-fluxos-funcionalidades.js",
+    "fluxos:vincular-funcionalidades": "node src/cli/vincular-fluxos-funcionalidades.js",
     "usuario:criar": "node src/cli/usuario-criar.js"
   },
   "dependencies": {
