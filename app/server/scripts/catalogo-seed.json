@@ -75,7 +75,7 @@
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
       "mae": "Cadastros Fundamentais",
-      "nome": "Pais | UF | Cidade",
+      "nome": "País / UF / Cidade",
       "tipo": "Obrigatório",
       "horas_minutos": 50,
       "pacote_padrao": true,
