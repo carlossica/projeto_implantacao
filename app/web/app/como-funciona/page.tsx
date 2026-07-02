@@ -30,7 +30,7 @@ export default function ComoFuncionaPage() {
   const pct = (k: string) => { const n = Number(cfg[k]); return Number.isFinite(n) ? `${Math.round(n * 100)}%` : "—"; };
 
   return (
-    <div className="max-w-6xl mx-auto pb-12">
+    <div className="max-w-[1600px] mx-auto pb-12">
       <PageHeader
         titulo="Orientações de uso"
         descricao="Documentação visual das regras do simulador — a mesma lógica da planilha, agora configurável."

@@ -105,7 +105,7 @@ export default function NovaSimulacao() {
   const inputCls = "w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-aliare-500";
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-[1600px] mx-auto">
       <PageHeader titulo="Nova Simulação" descricao="Defina os parâmetros gerais e selecione os módulos contratados." />
       {erro && <div className="mb-4 text-sm text-red-600 dark:text-red-400">{erro}</div>}
 
