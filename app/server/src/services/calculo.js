@@ -11,7 +11,7 @@
 //    (o +30% do prod+homolog incide só em validação de dados, parametrização e
 //     validação de ambiente — as etapas refeitas em homologação.)
 //  INSTALAÇÃO  = base + horas do ERP + (prod+homolog?) + hospedagem (tudo config/cadastro).
-//  INTEGRAÇÃO  = Σ fluxos cuja matriz de ativação intersecta os módulos contratados.
+//  INTEGRAÇÃO  = Σ fluxos cuja matriz de ativação intersecta as FUNCIONALIDADES marcadas.
 //  GESTÃO      = fator × (implantação + integração + adequações)  [SEM instalação].
 //  TREINAMENTO (turmas) = ⌈operacionais/tam_turma⌉ × etapas → multiplica o Go-Live.
 //  TOTAL       = gestão + instalação + implantação + integração + adequações.
@@ -20,20 +20,6 @@
 
 const MIN_POR_HORA = 60;
 const h = (min) => Math.round((min / MIN_POR_HORA) * 100) / 100;
-
-// Normaliza nome de módulo pra cruzar a matriz de integração (planilha grafa
-// "Potencial Maquinas" vs catálogo "Potencial de Máquinas").
-const RE_DIACRITICOS = new RegExp('[\\u0300-\\u036f]', 'g');
-function normModulo(nome) {
-  return String(nome ?? '')
-    .normalize('NFD').replace(RE_DIACRITICOS, '')
-    .toLowerCase()
-    .replace(/crm\s*-\s*mm\s*-\s*/g, '')
-    .replace(/[^a-z0-9]+/g, ' ')
-    .replace(/\bde\b/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
 
 const num = (v, d = 0) => { const n = Number(v); return Number.isFinite(n) ? n : d; };
 
@@ -102,15 +88,17 @@ export function calcular(dados) {
   const hospedagemH = num(simulacao.hospedagem_horas, 0);
   const minInstalacao = (baseH + erpH + prodHomologH + hospedagemH) * MIN_POR_HORA;
 
-  // --- Integração (matriz de ativação) --------------------------------------
+  // --- Integração (por funcionalidade marcada) ------------------------------
+  // Um fluxo entra nas horas quando ao menos uma FUNCIONALIDADE marcada na
+  // simulação está na sua lista de ativação (funcionalidades_ativa = IDs).
   const temIntegracao = !!simulacao.metodo_nome &&
     !String(simulacao.metodo_nome).toLowerCase().includes('sem integra');
-  const modsContratadosNorm = new Set(modulos.map((m) => normModulo(m.nome)));
+  const funcsMarcadasIds = new Set(funcionalidades.map((f) => f.id));
   let minIntegracao = 0;
   let fluxosAtivos = 0;
   if (temIntegracao) {
     for (const fx of fluxosIntegracao) {
-      const ativo = (fx.modulos_ativa ?? []).map(normModulo).some((n) => modsContratadosNorm.has(n));
+      const ativo = (fx.funcionalidades_ativa ?? []).some((fid) => funcsMarcadasIds.has(fid));
       if (!ativo) continue;
       fluxosAtivos += 1;
       minIntegracao += (fx.min_config || 0) + (fx.min_teste_carga || 0) + (fx.min_apoio || 0) + (fx.min_validacao || 0);

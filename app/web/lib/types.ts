@@ -61,7 +61,11 @@ export type FluxoIntegracao = {
   min_teste_carga: number;
   min_apoio: number;
   min_validacao: number;
-  modulos_ativa: string[];
+  // Vínculo por funcionalidade (IDs). Um fluxo conta nas horas quando alguma
+  // funcionalidade marcada na simulação está nesta lista.
+  funcionalidades_ativa: number[];
+  // Legado: vínculo por nome de módulo (mantido para referência/rollback).
+  modulos_ativa?: string[];
   ordem: number;
   ativo?: boolean;
 };

@@ -12,6 +12,7 @@
     "catalogo:importar": "node src/cli/importar-catalogo.js",
     "lrp:importar-template": "node src/cli/importar-lrp-template.js",
     "etapas:importar": "node src/cli/importar-etapas.js",
+    "fluxos:expandir-funcionalidades": "node src/cli/expandir-fluxos-funcionalidades.js",
     "usuario:criar": "node src/cli/usuario-criar.js"
   },
   "dependencies": {

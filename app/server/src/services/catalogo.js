@@ -205,7 +205,7 @@ export async function deletarHospedagem(id) {
 
 export async function listarFluxosIntegracao(contexto = null) {
   const { rows } = await pool.query(
-    `SELECT id, contexto, fluxo, tabela, tipo, min_config, min_teste_carga, min_apoio, min_validacao, modulos_ativa, ordem
+    `SELECT id, contexto, fluxo, tabela, tipo, min_config, min_teste_carga, min_apoio, min_validacao, modulos_ativa, funcionalidades_ativa, ordem
        FROM fluxos_integracao
       WHERE ativo AND ($1::text IS NULL OR contexto = $1)
       ORDER BY contexto, ordem`,
@@ -214,7 +214,9 @@ export async function listarFluxosIntegracao(contexto = null) {
   return rows;
 }
 
-const FLUXO_COLS = `id, contexto, fluxo, tabela, tipo, min_config, min_teste_carga, min_apoio, min_validacao, modulos_ativa, ordem, ativo`;
+const FLUXO_COLS = `id, contexto, fluxo, tabela, tipo, min_config, min_teste_carga, min_apoio, min_validacao, modulos_ativa, funcionalidades_ativa, ordem, ativo`;
+// Sanitiza uma lista de IDs de funcionalidade para INTEGER[].
+const idsFunc = (v) => Array.isArray(v) ? v.map(Number).filter(Number.isInteger) : [];
 const CONTEXTOS_FLUXO = ['solution', 'erp_terceiro'];
 
 export async function criarFluxo(campos) {
@@ -227,11 +229,11 @@ export async function criarFluxo(campos) {
   const m = (v) => Math.max(0, Math.round(Number(v) || 0));
   const { rows } = await pool.query(
     `INSERT INTO fluxos_integracao
-       (contexto, fluxo, tabela, tipo, min_config, min_teste_carga, min_apoio, min_validacao, modulos_ativa, ordem)
-     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10) RETURNING ${FLUXO_COLS}`,
+       (contexto, fluxo, tabela, tipo, min_config, min_teste_carga, min_apoio, min_validacao, modulos_ativa, funcionalidades_ativa, ordem)
+     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11) RETURNING ${FLUXO_COLS}`,
     [contexto, campos.fluxo ?? null, campos.tabela ?? null, campos.tipo ?? null,
      m(campos.min_config), m(campos.min_teste_carga), m(campos.min_apoio), m(campos.min_validacao),
-     Array.isArray(campos.modulos_ativa) ? campos.modulos_ativa : [], ord],
+     Array.isArray(campos.modulos_ativa) ? campos.modulos_ativa : [], idsFunc(campos.funcionalidades_ativa), ord],
   );
   return rows[0];
 }
@@ -250,6 +252,9 @@ export async function atualizarFluxo(id, campos) {
   }
   if (campos.modulos_ativa !== undefined) {
     sets.push(`modulos_ativa = $${i++}`); params.push(Array.isArray(campos.modulos_ativa) ? campos.modulos_ativa : []);
+  }
+  if (campos.funcionalidades_ativa !== undefined) {
+    sets.push(`funcionalidades_ativa = $${i++}`); params.push(idsFunc(campos.funcionalidades_ativa));
   }
   if (campos.ativo !== undefined) { sets.push(`ativo = $${i++}`); params.push(Boolean(campos.ativo)); }
   if (sets.length === 0) throw new ValidationError('nada para atualizar');
