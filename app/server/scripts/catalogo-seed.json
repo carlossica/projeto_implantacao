@@ -75,29 +75,11 @@
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
       "mae": "Cadastros Fundamentais",
-      "nome": "Unidade Federativa",
+      "nome": "Pais | UF | Cidade",
       "tipo": "Obrigatório",
-      "horas_minutos": 30,
+      "horas_minutos": 50,
       "pacote_padrao": true,
       "ordem": 6
-    },
-    {
-      "modulo": "CRM - MM - Funcionalidades Fundamentais",
-      "mae": "Cadastros Fundamentais",
-      "nome": "País",
-      "tipo": "Obrigatório",
-      "horas_minutos": 10,
-      "pacote_padrao": true,
-      "ordem": 7
-    },
-    {
-      "modulo": "CRM - MM - Funcionalidades Fundamentais",
-      "mae": "Cadastros Fundamentais",
-      "nome": "Cidade",
-      "tipo": "Obrigatório",
-      "horas_minutos": 10,
-      "pacote_padrao": true,
-      "ordem": 8
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
