@@ -181,8 +181,11 @@ function SeletorFuncionalidades({ modulos, selecionadas, onAlterar }: { modulos:
               {selecionadasList.map(({ f, modulo }) => (
                 <label key={f.id} className="flex items-center gap-2 text-xs text-gray-700 dark:text-gray-200">
                   <input type="checkbox" checked onChange={() => toggle(f.id)} className="rounded accent-aliare-600 shrink-0" />
-                  <span className="truncate">{f.nome}</span>
-                  <span className="ml-auto shrink-0 text-[9px] text-gray-400">{nomeCurtoModulo(modulo.nome)}</span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate">{f.nome}</span>
+                    {f.funcionalidade_mae && <span className="block text-[10px] text-gray-400 truncate">{f.funcionalidade_mae}</span>}
+                  </span>
+                  <span className="shrink-0 text-[9px] text-gray-400">{nomeCurtoModulo(modulo.nome)}</span>
                 </label>
               ))}
             </div>
@@ -195,7 +198,10 @@ function SeletorFuncionalidades({ modulos, selecionadas, onAlterar }: { modulos:
               {g.funcs.map((f) => (
                 <label key={f.id} className="flex items-center gap-2 text-xs text-gray-600 dark:text-gray-300">
                   <input type="checkbox" checked={false} onChange={() => toggle(f.id)} className="rounded accent-aliare-600 shrink-0" />
-                  <span className="truncate">{f.nome}</span>
+                  <span className="min-w-0">
+                    <span className="block truncate">{f.nome}</span>
+                    {f.funcionalidade_mae && <span className="block text-[10px] text-gray-400 truncate">{f.funcionalidade_mae}</span>}
+                  </span>
                 </label>
               ))}
             </div>
