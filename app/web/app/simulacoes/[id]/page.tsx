@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { apiGet, apiPut, apiPost } from "@/lib/api";
-import type { Modulo, Simulacao, Erp, MetodoIntegracao, Cliente, Lrp, TipoHospedagem } from "@/lib/types";
+import type { Modulo, Funcionalidade, Simulacao, Erp, MetodoIntegracao, Cliente, Lrp, TipoHospedagem } from "@/lib/types";
 import { horas } from "@/lib/format";
 
 export default function EditarSimulacao() {
@@ -166,42 +166,26 @@ export default function EditarSimulacao() {
             <div className="space-y-2">
               {modulosContratados.map((m) => {
                 const aberta = aberto.has(m.id);
-                const qtdMarc = m.funcionalidades.filter((f) => marcadas.has(f.id)).length;
+                const marc = m.funcionalidades.filter((f) => marcadas.has(f.id));
+                const somaCS = marc.reduce((s, f) => s + (f.horas_minutos || 0), 0);
+                const somaInt = marc.reduce((s, f) => s + (f.horas_integracao_minutos || 0), 0);
                 return (
                   <div key={m.id} className="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden">
-                    <div className="flex items-center gap-3 px-4 py-3">
-                      <button onClick={() => toggleAccordion(m.id)} className="flex-1 flex items-center gap-2 text-left min-w-0">
-                        <svg className={"w-4 h-4 text-gray-400 transition-transform " + (aberta ? "rotate-90" : "")} viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M7.3 5.3a1 1 0 011.4 0l4 4a1 1 0 010 1.4l-4 4a1 1 0 11-1.4-1.4L10.6 10 7.3 6.7a1 1 0 010-1.4z" clipRule="evenodd" /></svg>
+                    <div className={"flex items-center gap-3 px-4 py-3 " + (aberta ? "bg-gray-50 dark:bg-gray-800/40" : "")}>
+                      <button onClick={() => toggleAccordion(m.id)} className="flex-1 flex items-center gap-2.5 text-left min-w-0">
+                        <svg className={"w-4 h-4 text-gray-400 transition-transform shrink-0 " + (aberta ? "rotate-90" : "")} viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M7.3 5.3a1 1 0 011.4 0l4 4a1 1 0 010 1.4l-4 4a1 1 0 11-1.4-1.4L10.6 10 7.3 6.7a1 1 0 010-1.4z" clipRule="evenodd" /></svg>
                         <span className="min-w-0">
                           <span className="block truncate font-medium text-gray-900 dark:text-gray-100">{m.nome}</span>
-                          <span className="block text-xs text-gray-400">{qtdMarc}/{m.funcionalidades.length} funcionalidades marcadas</span>
+                          <span className="flex items-center gap-2 mt-0.5">
+                            <span className="text-xs text-gray-400">{marc.length}/{m.funcionalidades.length} marcadas</span>
+                            {somaCS > 0 && <span className="text-[11px] text-gray-500 dark:text-gray-400">· C&amp;S {horas(somaCS / 60)}</span>}
+                            {somaInt > 0 && <span className="text-[11px] text-aliare-600 dark:text-aliare-400">· Integr. {horas(somaInt / 60)}</span>}
+                          </span>
                         </span>
                       </button>
                       <button onClick={() => toggleModulo(m.id)} className="shrink-0 text-xs text-red-500 hover:text-red-600">Remover</button>
                     </div>
-                    {aberta && (
-                      <div className="border-t border-gray-100 dark:border-gray-800 divide-y divide-gray-50 dark:divide-gray-800/50 max-h-96 overflow-y-auto">
-                        {m.funcionalidades.map((f) => {
-                          const on = marcadas.has(f.id);
-                          return (
-                            <label key={f.id} className="flex items-center gap-3 px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800/50 cursor-pointer">
-                              <input type="checkbox" checked={on} onChange={(e) => toggleFunc(f.id, e.target.checked)} className="rounded accent-aliare-600" />
-                              <span className="flex-1 min-w-0">
-                                <span className="block text-sm text-gray-800 dark:text-gray-200 truncate">{f.nome}</span>
-                                {f.funcionalidade_mae && <span className="block text-[11px] text-gray-400 truncate">{f.funcionalidade_mae}</span>}
-                              </span>
-                              {f.tipo && <span className={"shrink-0 text-[10px] px-1.5 py-0.5 rounded " + (f.tipo.toLowerCase().startsWith("obrigat") ? "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300" : "bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-400")}>{f.tipo}</span>}
-                              <span className="shrink-0 w-20 text-right leading-tight">
-                                <span className="block text-xs text-gray-500 dark:text-gray-400" title="C&S CRM (coluna G)">{horas(f.horas_minutos / 60)} <span className="text-[9px] text-gray-400">C&amp;S</span></span>
-                                {(f.horas_integracao_minutos ?? 0) > 0 && (
-                                  <span className="block text-[11px] text-aliare-600 dark:text-aliare-400" title="Integração de Dados (coluna I)">{horas((f.horas_integracao_minutos ?? 0) / 60)} <span className="text-[9px]">int.</span></span>
-                                )}
-                              </span>
-                            </label>
-                          );
-                        })}
-                      </div>
-                    )}
+                    {aberta && <ModuloFuncionalidades modulo={m} marcadas={marcadas} onToggle={toggleFunc} />}
                   </div>
                 );
               })}
@@ -288,6 +272,81 @@ export default function EditarSimulacao() {
         </div>
       </div>
     </div>
+  );
+}
+
+// Lista de funcionalidades de um módulo: busca local + marcadas no topo,
+// com colunas alinhadas de C&S CRM (G) e Integração de Dados (I).
+function ModuloFuncionalidades({ modulo, marcadas, onToggle }: {
+  modulo: Modulo;
+  marcadas: Set<number>;
+  onToggle: (id: number, marcar: boolean) => void;
+}) {
+  const [busca, setBusca] = useState("");
+  const q = busca.trim().toLowerCase();
+  const passa = (f: Funcionalidade) => !q || f.nome.toLowerCase().includes(q) || (f.funcionalidade_mae ?? "").toLowerCase().includes(q);
+  const filtradas = modulo.funcionalidades.filter(passa);
+  // Agrupa por funcionalidade mãe (na ordem de aparição); dentro de cada grupo,
+  // as marcadas vêm primeiro.
+  const grupos: { mae: string | null; funcs: Funcionalidade[] }[] = [];
+  const idxByMae = new Map<string, number>();
+  for (const f of filtradas) {
+    const key = f.funcionalidade_mae ?? "";
+    if (!idxByMae.has(key)) { idxByMae.set(key, grupos.length); grupos.push({ mae: f.funcionalidade_mae ?? null, funcs: [] }); }
+    grupos[idxByMae.get(key)!].funcs.push(f);
+  }
+  for (const g of grupos) g.funcs.sort((a, b) => (marcadas.has(b.id) ? 1 : 0) - (marcadas.has(a.id) ? 1 : 0));
+
+  return (
+    <div className="border-t border-gray-100 dark:border-gray-800">
+      <div className="px-4 py-2 border-b border-gray-100 dark:border-gray-800">
+        <div className="relative">
+          <svg className="w-4 h-4 text-gray-400 absolute left-2.5 top-1/2 -translate-y-1/2" viewBox="0 0 20 20" fill="currentColor" aria-hidden><path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" /></svg>
+          <input value={busca} onChange={(e) => setBusca(e.target.value)} placeholder="Buscar funcionalidade neste módulo…" className="w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 pl-8 pr-2 py-1.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-aliare-500" />
+        </div>
+      </div>
+      <div className="flex items-center gap-3 px-4 py-1.5 text-[9px] font-semibold uppercase tracking-wider text-gray-400 bg-gray-50/60 dark:bg-gray-800/30">
+        <span className="w-4 shrink-0" aria-hidden />
+        <span className="flex-1">Funcionalidade</span>
+        <span className="w-14 text-right shrink-0" title="C&S CRM (coluna G da planilha)">C&amp;S</span>
+        <span className="w-14 text-right shrink-0" title="Integração de Dados (coluna I da planilha)">Integr.</span>
+      </div>
+      <div className="max-h-96 overflow-y-auto">
+        {grupos.length === 0 && <div className="px-4 py-5 text-xs text-gray-400 text-center">Nenhuma funcionalidade encontrada.</div>}
+        {grupos.map((g, gi) => {
+          const marc = g.funcs.filter((f) => marcadas.has(f.id)).length;
+          return (
+            <div key={gi} className="border-b border-gray-100 dark:border-gray-800/60 last:border-b-0">
+              {g.mae && (
+                <div className="flex items-center justify-between gap-2 px-4 py-1.5 bg-gray-50 dark:bg-gray-800/40">
+                  <span className="text-[11px] font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400 truncate">{g.mae}</span>
+                  <span className={"shrink-0 text-[10px] " + (marc > 0 ? "text-aliare-600 dark:text-aliare-400 font-medium" : "text-gray-400")}>{marc}/{g.funcs.length}</span>
+                </div>
+              )}
+              {g.funcs.map((f) => <FuncRow key={f.id} f={f} on={marcadas.has(f.id)} onToggle={onToggle} />)}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function FuncRow({ f, on, onToggle }: { f: Funcionalidade; on: boolean; onToggle: (id: number, marcar: boolean) => void }) {
+  const intMin = f.horas_integracao_minutos ?? 0;
+  return (
+    <label className={"flex items-center gap-3 px-4 py-2 cursor-pointer border-l-2 " + (on ? "border-aliare-500 bg-aliare-50/60 dark:bg-aliare-900/15" : "border-transparent hover:bg-gray-50 dark:hover:bg-gray-800/50")}>
+      <input type="checkbox" checked={on} onChange={(e) => onToggle(f.id, e.target.checked)} className="rounded accent-aliare-600 shrink-0 w-4" />
+      <span className="flex-1 min-w-0">
+        <span className="flex items-center gap-2 min-w-0">
+          <span className={"truncate text-sm " + (on ? "text-gray-900 dark:text-gray-100 font-medium" : "text-gray-800 dark:text-gray-200")}>{f.nome}</span>
+          {f.tipo && <span className={"shrink-0 text-[10px] px-1.5 py-0.5 rounded " + (f.tipo.toLowerCase().startsWith("obrigat") ? "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300" : "bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-400")}>{f.tipo}</span>}
+        </span>
+        {f.funcionalidade_mae && <span className="block text-[11px] text-gray-400 truncate">{f.funcionalidade_mae}</span>}
+      </span>
+      <span className="w-14 shrink-0 text-right text-xs text-gray-600 dark:text-gray-300" title="C&S CRM">{f.horas_minutos ? horas(f.horas_minutos / 60) : "—"}</span>
+      <span className={"w-14 shrink-0 text-right text-xs " + (intMin > 0 ? "text-aliare-600 dark:text-aliare-400 font-medium" : "text-gray-300 dark:text-gray-600")} title="Integração de Dados">{intMin > 0 ? horas(intMin / 60) : "—"}</span>
+    </label>
   );
 }
 
