@@ -139,10 +139,18 @@ function SeletorFuncionalidades({ modulos, selecionadas, onAlterar }: { modulos:
   const [busca, setBusca] = useState("");
   const q = busca.trim().toLowerCase();
 
+  const passa = (nome: string, moduloNome: string) => !q || nome.toLowerCase().includes(q) || nomeCurtoModulo(moduloNome).toLowerCase().includes(q);
+
+  // Marcadas sobem para um bloco "Selecionadas" no topo; as demais ficam
+  // agrupadas por módulo abaixo.
+  const selecionadasList = modulos
+    .flatMap((m) => (m.funcionalidades ?? []).map((f) => ({ f, modulo: m })))
+    .filter(({ f, modulo }) => selecionadas.has(f.id) && passa(f.nome, modulo.nome));
+
   const grupos = modulos
     .map((m) => ({
       modulo: m,
-      funcs: (m.funcionalidades ?? []).filter((f) => !q || f.nome.toLowerCase().includes(q) || nomeCurtoModulo(m.nome).toLowerCase().includes(q)),
+      funcs: (m.funcionalidades ?? []).filter((f) => !selecionadas.has(f.id) && passa(f.nome, m.nome)),
     }))
     .filter((g) => g.funcs.length > 0);
 
@@ -165,14 +173,28 @@ function SeletorFuncionalidades({ modulos, selecionadas, onAlterar }: { modulos:
         <button type="button" onClick={() => onAlterar(new Set())} disabled={selecionadas.size === 0} className="rounded border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 text-[11px] font-medium px-2 py-0.5 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-transparent">Limpar seleção</button>
       </div>
       <div className="max-h-64 overflow-y-auto space-y-2">
-        {grupos.length === 0 && <div className="text-[10px] text-gray-400">nenhuma funcionalidade</div>}
+        {selecionadasList.length === 0 && grupos.length === 0 && <div className="text-[10px] text-gray-400">nenhuma funcionalidade</div>}
+        {selecionadasList.length > 0 && (
+          <div className="pb-2 border-b border-gray-100 dark:border-gray-800">
+            <div className="text-[10px] font-semibold uppercase tracking-wider text-aliare-600 dark:text-aliare-400 mb-1">Selecionadas ({selecionadasList.length})</div>
+            <div className="space-y-1 pl-1">
+              {selecionadasList.map(({ f, modulo }) => (
+                <label key={f.id} className="flex items-center gap-2 text-xs text-gray-700 dark:text-gray-200">
+                  <input type="checkbox" checked onChange={() => toggle(f.id)} className="rounded accent-aliare-600 shrink-0" />
+                  <span className="truncate">{f.nome}</span>
+                  <span className="ml-auto shrink-0 text-[9px] text-gray-400">{nomeCurtoModulo(modulo.nome)}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+        )}
         {grupos.map((g) => (
           <div key={g.modulo.id}>
             <div className="text-[10px] font-semibold uppercase tracking-wider text-gray-400 mb-1">{nomeCurtoModulo(g.modulo.nome)}</div>
             <div className="space-y-1 pl-1">
               {g.funcs.map((f) => (
                 <label key={f.id} className="flex items-center gap-2 text-xs text-gray-600 dark:text-gray-300">
-                  <input type="checkbox" checked={selecionadas.has(f.id)} onChange={() => toggle(f.id)} className="rounded accent-aliare-600 shrink-0" />
+                  <input type="checkbox" checked={false} onChange={() => toggle(f.id)} className="rounded accent-aliare-600 shrink-0" />
                   <span className="truncate">{f.nome}</span>
                 </label>
               ))}
