@@ -333,6 +333,8 @@ function ParametrosPanel({
     etapas_golive: sim.etapas_golive ?? 1,
     formato_treino_adm: sim.formato_treino_adm ?? "Presencial",
     formato_treino_oper: sim.formato_treino_oper ?? "Presencial",
+    acomp_golive_horas: (sim.acomp_golive_horas ?? "") as number | "",
+    pos_producao_horas: (sim.pos_producao_horas ?? "") as number | "",
   });
   const inputCls = "w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-aliare-500";
 
@@ -392,6 +394,14 @@ function ParametrosPanel({
             <option value="nao">Não</option>
             <option value="sim">Sim</option>
           </select>
+        </div>
+        <div>
+          <label className="block text-xs text-gray-500 mb-1">Acomp. Go-Live (h)</label>
+          <input type="number" min={0} step={0.5} value={f.acomp_golive_horas} placeholder="automático" onChange={(e) => setF({ ...f, acomp_golive_horas: e.target.value === "" ? "" : Number(e.target.value) })} className={inputCls} />
+        </div>
+        <div>
+          <label className="block text-xs text-gray-500 mb-1">Pós-Produção (h)</label>
+          <input type="number" min={0} step={0.5} value={f.pos_producao_horas} placeholder="automático" onChange={(e) => setF({ ...f, pos_producao_horas: e.target.value === "" ? "" : Number(e.target.value) })} className={inputCls} />
         </div>
       </div>
 

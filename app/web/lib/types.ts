@@ -175,6 +175,9 @@ export type Simulacao = {
   etapas_golive: number;
   formato_treino_adm: string;
   formato_treino_oper: string;
+  // Horas manuais opcionais (null = cálculo automático da etapa).
+  acomp_golive_horas: number | string | null;
+  pos_producao_horas: number | string | null;
   status: "rascunho" | "finalizada";
   criado_por_nome?: string | null;
   qtd_modulos?: number;

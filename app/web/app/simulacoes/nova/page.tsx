@@ -26,6 +26,9 @@ export default function NovaSimulacao() {
   const [hospedagemId, setHospedagemId] = useState<number | "">("");
   const [fases, setFases] = useState(1);
   const [fatorGestao, setFatorGestao] = useState(0.08);
+  // Horas manuais opcionais (vazio = cálculo automático).
+  const [acompGolive, setAcompGolive] = useState("");
+  const [posProducao, setPosProducao] = useState("");
   // Formato dos treinamentos
   const [numAdmins, setNumAdmins] = useState(1);
   const [numOperac, setNumOperac] = useState(25);
@@ -93,6 +96,8 @@ export default function NovaSimulacao() {
         etapas_golive: etapasGolive,
         formato_treino_adm: formatoAdm,
         formato_treino_oper: formatoOper,
+        acomp_golive_horas: acompGolive === "" ? null : Number(acompGolive),
+        pos_producao_horas: posProducao === "" ? null : Number(posProducao),
         modulo_ids: [...selecionados],
       });
       router.push(`/simulacoes/${data.simulacao.id}`);
@@ -158,6 +163,16 @@ export default function NovaSimulacao() {
                 <option value="">—</option>
                 {hospedagens.map((hp) => <option key={hp.id} value={hp.id}>{hp.nome}</option>)}
               </select>
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Acomp. Go-Live (h)</label>
+              <input type="number" min={0} step={0.5} value={acompGolive} onChange={(e) => setAcompGolive(e.target.value)} placeholder="automático" className={inputCls} />
+              <span className="text-[11px] text-gray-400">Vazio = cálculo automático.</span>
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Pós-Produção (h)</label>
+              <input type="number" min={0} step={0.5} value={posProducao} onChange={(e) => setPosProducao(e.target.value)} placeholder="automático" className={inputCls} />
+              <span className="text-[11px] text-gray-400">Vazio = cálculo automático.</span>
             </div>
             <div className="sm:col-span-2">
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Será utilizado ambiente de homologação?</label>

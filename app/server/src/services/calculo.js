@@ -73,10 +73,17 @@ export function calcular(dados) {
   }
   porModulo.sort((a, b) => b.horas - a.horas);
 
-  // Fixos do projeto (só se há algum módulo contratado).
+  // Fixos do projeto (só se há algum módulo contratado). Se a simulação informar
+  // manualmente as horas (acomp_golive_horas / pos_producao_horas), esse valor
+  // substitui o cálculo automático da etapa.
   const temModulos = minPorModulo.size > 0;
-  const minAcompGolive = temModulos ? num(config.acomp_golive_horas_base, 8) * num(simulacao.fases, 1) * etapasGolive * MIN_POR_HORA : 0;
-  const minPosProducao = temModulos ? num(config.pos_producao_horas, 12) * MIN_POR_HORA : 0;
+  const manualInformado = (v) => v !== null && v !== undefined && v !== '';
+  const minAcompGolive = manualInformado(simulacao.acomp_golive_horas)
+    ? num(simulacao.acomp_golive_horas) * MIN_POR_HORA
+    : (temModulos ? num(config.acomp_golive_horas_base, 8) * num(simulacao.fases, 1) * etapasGolive * MIN_POR_HORA : 0);
+  const minPosProducao = manualInformado(simulacao.pos_producao_horas)
+    ? num(simulacao.pos_producao_horas) * MIN_POR_HORA
+    : (temModulos ? num(config.pos_producao_horas, 12) * MIN_POR_HORA : 0);
 
   const minImplantacao = etapas.lrp + etapas.validacao_dados + etapas.parametrizacao
     + etapas.treinamento + etapas.validacao_ambiente + etapas.golive + minAcompGolive + minPosProducao;

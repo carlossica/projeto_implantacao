@@ -11,8 +11,12 @@ const COLS = `
   s.fator_gestao, s.status, s.criado_por, s.criado_em, s.atualizado_em,
   s.num_administradores, s.num_operacionais, s.num_gestores,
   s.tam_turma_operacional, s.tam_turma_gestor, s.etapas_golive,
-  s.formato_treino_adm, s.formato_treino_oper
+  s.formato_treino_adm, s.formato_treino_oper,
+  s.acomp_golive_horas, s.pos_producao_horas
 `;
+
+// Normaliza horas manuais opcionais: '' / null -> null (usa cálculo automático).
+const horasManuais = (v) => (v === '' || v == null ? null : Number(v));
 
 export async function listar() {
   const { rows } = await pool.query(
@@ -56,8 +60,9 @@ export async function criar(campos, usuarioId) {
         hospedagem_id, fases, fator_gestao,
         num_administradores, num_operacionais, num_gestores,
         tam_turma_operacional, tam_turma_gestor, etapas_golive,
-        formato_treino_adm, formato_treino_oper, criado_por)
-     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18)
+        formato_treino_adm, formato_treino_oper,
+        acomp_golive_horas, pos_producao_horas, criado_por)
+     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20)
      RETURNING id`,
     [
       nome,
@@ -77,6 +82,8 @@ export async function criar(campos, usuarioId) {
       Number(campos.etapas_golive ?? 1) || 1,
       campos.formato_treino_adm ?? 'Presencial',
       campos.formato_treino_oper ?? 'Presencial',
+      horasManuais(campos.acomp_golive_horas),
+      horasManuais(campos.pos_producao_horas),
       usuarioId ?? null,
     ],
   );
@@ -108,6 +115,8 @@ export async function atualizar(id, campos) {
     etapas_golive: (v) => Number(v) || 1,
     formato_treino_adm: (v) => String(v),
     formato_treino_oper: (v) => String(v),
+    acomp_golive_horas: horasManuais,
+    pos_producao_horas: horasManuais,
     status: (v) => String(v),
   };
   const sets = [];
