@@ -67,13 +67,15 @@ def extrair(path):
             if not filha:
                 continue
             tipo = norm(ws.cell(row=r, column=6).value)
-            horas = t2min(ws.cell(row=r, column=7).value)
+            horas = t2min(ws.cell(row=r, column=7).value)          # G — C&S CRM
+            horas_integr = t2min(ws.cell(row=r, column=9).value)   # I — Integração de Dados
             funcionalidades.append({
                 "modulo": nome_mod,
                 "mae": mae_atual,
                 "nome": filha,
                 "tipo": tipo,
                 "horas_minutos": horas,
+                "horas_integracao_minutos": horas_integr or 0,
                 # pacote padrão = obrigatórias pré-marcadas (ajustável depois no app)
                 "pacote_padrao": bool(tipo and tipo.lower().startswith("obrigat")),
                 "ordem": r,

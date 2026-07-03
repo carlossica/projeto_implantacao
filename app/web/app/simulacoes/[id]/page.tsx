@@ -191,7 +191,12 @@ export default function EditarSimulacao() {
                                 {f.funcionalidade_mae && <span className="block text-[11px] text-gray-400 truncate">{f.funcionalidade_mae}</span>}
                               </span>
                               {f.tipo && <span className={"shrink-0 text-[10px] px-1.5 py-0.5 rounded " + (f.tipo.toLowerCase().startsWith("obrigat") ? "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300" : "bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-400")}>{f.tipo}</span>}
-                              <span className="shrink-0 text-xs text-gray-400 w-14 text-right">{horas(f.horas_minutos / 60)}</span>
+                              <span className="shrink-0 w-20 text-right leading-tight">
+                                <span className="block text-xs text-gray-500 dark:text-gray-400" title="C&S CRM (coluna G)">{horas(f.horas_minutos / 60)} <span className="text-[9px] text-gray-400">C&amp;S</span></span>
+                                {(f.horas_integracao_minutos ?? 0) > 0 && (
+                                  <span className="block text-[11px] text-aliare-600 dark:text-aliare-400" title="Integração de Dados (coluna I)">{horas((f.horas_integracao_minutos ?? 0) / 60)} <span className="text-[9px]">int.</span></span>
+                                )}
+                              </span>
                             </label>
                           );
                         })}

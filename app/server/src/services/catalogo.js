@@ -23,7 +23,7 @@ export async function modulosComFuncionalidades({ somenteAtivos = true } = {}) {
   const cond = somenteAtivos ? 'WHERE f.ativo' : '';
   const { rows } = await pool.query(
     `SELECT f.id, f.modulo_id, f.funcionalidade_mae, f.nome, f.tipo,
-            f.horas_minutos, f.pacote_padrao, f.ordem
+            f.horas_minutos, f.horas_integracao_minutos, f.pacote_padrao, f.ordem
        FROM funcionalidades f
        ${cond}
       ORDER BY f.modulo_id, f.ordem`,

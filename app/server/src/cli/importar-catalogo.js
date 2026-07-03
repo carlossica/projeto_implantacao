@@ -65,9 +65,9 @@ async function main() {
       }
       await client.query(
         `INSERT INTO funcionalidades
-           (modulo_id, funcionalidade_mae, nome, tipo, horas_minutos, pacote_padrao, ordem)
-         VALUES ($1, $2, $3, $4, $5, $6, $7)`,
-        [modId, f.mae, f.nome, f.tipo, f.horas_minutos, f.pacote_padrao, f.ordem],
+           (modulo_id, funcionalidade_mae, nome, tipo, horas_minutos, horas_integracao_minutos, pacote_padrao, ordem)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8)`,
+        [modId, f.mae, f.nome, f.tipo, f.horas_minutos, f.horas_integracao_minutos ?? 0, f.pacote_padrao, f.ordem],
       );
       nFunc++;
     }

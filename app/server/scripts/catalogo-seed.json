@@ -61,7 +61,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 4
+      "ordem": 4,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -70,7 +71,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 20,
       "pacote_padrao": true,
-      "ordem": 5
+      "ordem": 5,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -79,7 +81,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 50,
       "pacote_padrao": true,
-      "ordem": 6
+      "ordem": 6,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -88,7 +91,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 9
+      "ordem": 9,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -97,7 +101,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 10
+      "ordem": 10,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -106,7 +111,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 11
+      "ordem": 11,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -115,7 +121,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 12
+      "ordem": 12,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -124,7 +131,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 13
+      "ordem": 13,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -133,7 +141,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 14
+      "ordem": 14,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -142,7 +151,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 15
+      "ordem": 15,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -151,7 +161,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 16
+      "ordem": 16,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -160,7 +171,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 17
+      "ordem": 17,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -169,7 +181,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 18
+      "ordem": 18,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -178,7 +191,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 19
+      "ordem": 19,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -187,7 +201,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 20
+      "ordem": 20,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -196,7 +211,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 21
+      "ordem": 21,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -205,7 +221,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 22
+      "ordem": 22,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -214,7 +231,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 23
+      "ordem": 23,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -223,7 +241,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 24
+      "ordem": 24,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -232,7 +251,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 25
+      "ordem": 25,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -241,7 +261,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 26
+      "ordem": 26,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -250,7 +271,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 27
+      "ordem": 27,
+      "horas_integracao_minutos": 180
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -259,7 +281,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 28
+      "ordem": 28,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -268,7 +291,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 29
+      "ordem": 29,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -277,7 +301,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 30
+      "ordem": 30,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -286,7 +311,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 31
+      "ordem": 31,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -295,7 +321,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 32
+      "ordem": 32,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -304,7 +331,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 33
+      "ordem": 33,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -313,7 +341,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 34
+      "ordem": 34,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -322,7 +351,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 35
+      "ordem": 35,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -331,7 +361,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 36
+      "ordem": 36,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -340,7 +371,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 37
+      "ordem": 37,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -349,7 +381,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 38
+      "ordem": 38,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -358,7 +391,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 39
+      "ordem": 39,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -367,7 +401,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 40
+      "ordem": 40,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -376,7 +411,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 41
+      "ordem": 41,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -385,7 +421,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 42
+      "ordem": 42,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -394,7 +431,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 43
+      "ordem": 43,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -403,7 +441,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 44
+      "ordem": 44,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -412,7 +451,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 45
+      "ordem": 45,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -421,7 +461,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 46
+      "ordem": 46,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -430,7 +471,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 47
+      "ordem": 47,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -439,7 +481,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 48
+      "ordem": 48,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -448,7 +491,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 49
+      "ordem": 49,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -457,7 +501,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 50
+      "ordem": 50,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -466,7 +511,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 51
+      "ordem": 51,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -475,7 +521,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 52
+      "ordem": 52,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -484,7 +531,8 @@
       "tipo": "Opcional, pode ser necessário",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 53
+      "ordem": 53,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -493,7 +541,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 54
+      "ordem": 54,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -502,7 +551,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 55
+      "ordem": 55,
+      "horas_integracao_minutos": 180
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -511,7 +561,8 @@
       "tipo": "Validar Jane",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 56
+      "ordem": 56,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -520,7 +571,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 57
+      "ordem": 57,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -529,7 +581,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 58
+      "ordem": 58,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -538,7 +591,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 59
+      "ordem": 59,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -547,7 +601,8 @@
       "tipo": "Validar Jane",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 60
+      "ordem": 60,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -556,7 +611,8 @@
       "tipo": "Validar Jane",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 61
+      "ordem": 61,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -565,7 +621,8 @@
       "tipo": "Validar Jane",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 62
+      "ordem": 62,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -574,7 +631,8 @@
       "tipo": "Validar Jane",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 63
+      "ordem": 63,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -583,7 +641,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 64
+      "ordem": 64,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -592,7 +651,8 @@
       "tipo": "Validar Jane",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 65
+      "ordem": 65,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -601,7 +661,8 @@
       "tipo": "Validar Jane",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 66
+      "ordem": 66,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -610,7 +671,8 @@
       "tipo": "Validar Jane",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 67
+      "ordem": 67,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -619,7 +681,8 @@
       "tipo": "Validar Jane",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 68
+      "ordem": 68,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -628,7 +691,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 69
+      "ordem": 69,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -637,7 +701,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 70
+      "ordem": 70,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -646,7 +711,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 71
+      "ordem": 71,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -655,7 +721,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 72
+      "ordem": 72,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -664,7 +731,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 73
+      "ordem": 73,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -673,7 +741,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 74
+      "ordem": 74,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -682,7 +751,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 75
+      "ordem": 75,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -691,7 +761,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 76
+      "ordem": 76,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -700,7 +771,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 77
+      "ordem": 77,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -709,7 +781,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 78
+      "ordem": 78,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -718,7 +791,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 79
+      "ordem": 79,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -727,7 +801,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 80
+      "ordem": 80,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -736,7 +811,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 81
+      "ordem": 81,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -745,7 +821,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 82
+      "ordem": 82,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -754,7 +831,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 83
+      "ordem": 83,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -763,7 +841,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 20,
       "pacote_padrao": true,
-      "ordem": 84
+      "ordem": 84,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -772,7 +851,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 20,
       "pacote_padrao": true,
-      "ordem": 85
+      "ordem": 85,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -781,7 +861,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 86
+      "ordem": 86,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -790,7 +871,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 87
+      "ordem": 87,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -799,7 +881,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 88
+      "ordem": 88,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -808,7 +891,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 89
+      "ordem": 89,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -817,7 +901,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 25,
       "pacote_padrao": true,
-      "ordem": 90
+      "ordem": 90,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -826,7 +911,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 91
+      "ordem": 91,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -835,7 +921,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 92
+      "ordem": 92,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -844,7 +931,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 93
+      "ordem": 93,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -853,7 +941,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 94
+      "ordem": 94,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -862,7 +951,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 95
+      "ordem": 95,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -871,7 +961,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 96
+      "ordem": 96,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -880,7 +971,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 97
+      "ordem": 97,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -889,7 +981,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 98
+      "ordem": 98,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funcionalidades Fundamentais",
@@ -898,7 +991,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 99
+      "ordem": 99,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -907,7 +1001,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 101
+      "ordem": 101,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -916,7 +1011,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 102
+      "ordem": 102,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -925,7 +1021,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 103
+      "ordem": 103,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -934,7 +1031,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 104
+      "ordem": 104,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -943,7 +1041,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 105
+      "ordem": 105,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -952,7 +1051,8 @@
       "tipo": "Opcional",
       "horas_minutos": 15,
       "pacote_padrao": false,
-      "ordem": 106
+      "ordem": 106,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -961,7 +1061,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 107
+      "ordem": 107,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -970,7 +1071,8 @@
       "tipo": "Opcional",
       "horas_minutos": 15,
       "pacote_padrao": false,
-      "ordem": 108
+      "ordem": 108,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -979,7 +1081,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 109
+      "ordem": 109,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -988,7 +1091,8 @@
       "tipo": "Opcional",
       "horas_minutos": 15,
       "pacote_padrao": false,
-      "ordem": 110
+      "ordem": 110,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -997,7 +1101,8 @@
       "tipo": "Opcional",
       "horas_minutos": 10,
       "pacote_padrao": false,
-      "ordem": 111
+      "ordem": 111,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1006,7 +1111,8 @@
       "tipo": "Opcional",
       "horas_minutos": 10,
       "pacote_padrao": false,
-      "ordem": 112
+      "ordem": 112,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1015,7 +1121,8 @@
       "tipo": "Opcional",
       "horas_minutos": 10,
       "pacote_padrao": false,
-      "ordem": 113
+      "ordem": 113,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1024,7 +1131,8 @@
       "tipo": "Opcional",
       "horas_minutos": 10,
       "pacote_padrao": false,
-      "ordem": 114
+      "ordem": 114,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1033,7 +1141,8 @@
       "tipo": "Opcional",
       "horas_minutos": 10,
       "pacote_padrao": false,
-      "ordem": 115
+      "ordem": 115,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1042,7 +1151,8 @@
       "tipo": "Opcional",
       "horas_minutos": 10,
       "pacote_padrao": false,
-      "ordem": 116
+      "ordem": 116,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1051,7 +1161,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 117
+      "ordem": 117,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1060,7 +1171,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 118
+      "ordem": 118,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1069,7 +1181,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 150,
       "pacote_padrao": true,
-      "ordem": 119
+      "ordem": 119,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1078,7 +1191,8 @@
       "tipo": "Opcional",
       "horas_minutos": 90,
       "pacote_padrao": false,
-      "ordem": 120
+      "ordem": 120,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1087,7 +1201,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 121
+      "ordem": 121,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1096,7 +1211,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 122
+      "ordem": 122,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1105,7 +1221,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 120,
       "pacote_padrao": true,
-      "ordem": 123
+      "ordem": 123,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1114,7 +1231,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 124
+      "ordem": 124,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Registro de Visita",
@@ -1123,7 +1241,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 120,
       "pacote_padrao": true,
-      "ordem": 125
+      "ordem": 125,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1132,7 +1251,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 127
+      "ordem": 127,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1141,7 +1261,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 128
+      "ordem": 128,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1150,7 +1271,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 129
+      "ordem": 129,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1159,7 +1281,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 130
+      "ordem": 130,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1168,7 +1291,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 131
+      "ordem": 131,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1177,7 +1301,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 132
+      "ordem": 132,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1186,7 +1311,8 @@
       "tipo": "Opcional",
       "horas_minutos": 90,
       "pacote_padrao": false,
-      "ordem": 133
+      "ordem": 133,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1195,7 +1321,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 134
+      "ordem": 134,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1204,7 +1331,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 135
+      "ordem": 135,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1213,7 +1341,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 136
+      "ordem": 136,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1222,7 +1351,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 137
+      "ordem": 137,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1231,7 +1361,8 @@
       "tipo": "Opcional",
       "horas_minutos": 270,
       "pacote_padrao": false,
-      "ordem": 138
+      "ordem": 138,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1240,7 +1371,8 @@
       "tipo": "Opcional",
       "horas_minutos": 270,
       "pacote_padrao": false,
-      "ordem": 139
+      "ordem": 139,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1249,7 +1381,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 140
+      "ordem": 140,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial & Metas",
@@ -1258,7 +1391,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 141
+      "ordem": 141,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1267,7 +1401,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 180,
       "pacote_padrao": true,
-      "ordem": 143
+      "ordem": 143,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1276,7 +1411,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 144
+      "ordem": 144,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1285,7 +1421,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 600,
       "pacote_padrao": true,
-      "ordem": 145
+      "ordem": 145,
+      "horas_integracao_minutos": 150
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1294,7 +1431,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 146
+      "ordem": 146,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1303,7 +1441,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 147
+      "ordem": 147,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1312,7 +1451,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 148
+      "ordem": 148,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1321,7 +1461,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 149
+      "ordem": 149,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1330,7 +1471,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 150
+      "ordem": 150,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1339,7 +1481,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 151
+      "ordem": 151,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1348,7 +1491,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 152
+      "ordem": 152,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1357,7 +1501,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 153
+      "ordem": 153,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1366,7 +1511,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 154
+      "ordem": 154,
+      "horas_integracao_minutos": 360
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1375,7 +1521,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 155
+      "ordem": 155,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1384,7 +1531,8 @@
       "tipo": "Opcional",
       "horas_minutos": 180,
       "pacote_padrao": false,
-      "ordem": 156
+      "ordem": 156,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1393,7 +1541,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 157
+      "ordem": 157,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1402,7 +1551,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 158
+      "ordem": 158,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1411,7 +1561,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 159
+      "ordem": 159,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1420,7 +1571,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 720,
       "pacote_padrao": true,
-      "ordem": 160
+      "ordem": 160,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1429,7 +1581,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 161
+      "ordem": 161,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1438,7 +1591,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 162
+      "ordem": 162,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1447,7 +1601,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 163
+      "ordem": 163,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1456,7 +1611,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 0,
       "pacote_padrao": true,
-      "ordem": 164
+      "ordem": 164,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1465,7 +1621,8 @@
       "tipo": "Opcional",
       "horas_minutos": 180,
       "pacote_padrao": false,
-      "ordem": 165
+      "ordem": 165,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1474,7 +1631,8 @@
       "tipo": "Opcional",
       "horas_minutos": 180,
       "pacote_padrao": false,
-      "ordem": 166
+      "ordem": 166,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1483,7 +1641,8 @@
       "tipo": "Opcional",
       "horas_minutos": 180,
       "pacote_padrao": false,
-      "ordem": 167
+      "ordem": 167,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1492,7 +1651,8 @@
       "tipo": "Opcional",
       "horas_minutos": 120,
       "pacote_padrao": false,
-      "ordem": 168
+      "ordem": 168,
+      "horas_integracao_minutos": 300
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1501,7 +1661,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 169
+      "ordem": 169,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1510,7 +1671,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 170
+      "ordem": 170,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1519,7 +1681,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 171
+      "ordem": 171,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1528,7 +1691,8 @@
       "tipo": "Opcional",
       "horas_minutos": 90,
       "pacote_padrao": false,
-      "ordem": 172
+      "ordem": 172,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1537,7 +1701,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 173
+      "ordem": 173,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1546,7 +1711,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 174
+      "ordem": 174,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1555,7 +1721,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 175
+      "ordem": 175,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1564,7 +1731,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 176
+      "ordem": 176,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1573,7 +1741,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 177
+      "ordem": 177,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1582,7 +1751,8 @@
       "tipo": "Opcional",
       "horas_minutos": 90,
       "pacote_padrao": false,
-      "ordem": 178
+      "ordem": 178,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1591,7 +1761,8 @@
       "tipo": "Opcional",
       "horas_minutos": 240,
       "pacote_padrao": false,
-      "ordem": 179
+      "ordem": 179,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1600,7 +1771,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 180
+      "ordem": 180,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1609,7 +1781,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 181
+      "ordem": 181,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1618,7 +1791,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 182
+      "ordem": 182,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1627,7 +1801,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 183
+      "ordem": 183,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1636,7 +1811,8 @@
       "tipo": "Opcional",
       "horas_minutos": 90,
       "pacote_padrao": false,
-      "ordem": 184
+      "ordem": 184,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1645,7 +1821,8 @@
       "tipo": "Opcional",
       "horas_minutos": 0,
       "pacote_padrao": false,
-      "ordem": 185
+      "ordem": 185,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1654,7 +1831,8 @@
       "tipo": "Opcional",
       "horas_minutos": 120,
       "pacote_padrao": false,
-      "ordem": 186
+      "ordem": 186,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1663,7 +1841,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 187
+      "ordem": 187,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1672,7 +1851,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 188
+      "ordem": 188,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1681,7 +1861,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 189
+      "ordem": 189,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1690,7 +1871,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 190
+      "ordem": 190,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1699,7 +1881,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 25,
       "pacote_padrao": true,
-      "ordem": 191
+      "ordem": 191,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Força de Vendas",
@@ -1708,7 +1891,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 192
+      "ordem": 192,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1717,7 +1901,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 194
+      "ordem": 194,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1726,7 +1911,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 195
+      "ordem": 195,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1735,7 +1921,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 196
+      "ordem": 196,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1744,7 +1931,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 197
+      "ordem": 197,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1753,7 +1941,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 198
+      "ordem": 198,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1762,7 +1951,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 199
+      "ordem": 199,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1771,7 +1961,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 200
+      "ordem": 200,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1780,7 +1971,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 201
+      "ordem": 201,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1789,7 +1981,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 202
+      "ordem": 202,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1798,7 +1991,8 @@
       "tipo": "Opcional",
       "horas_minutos": 15,
       "pacote_padrao": false,
-      "ordem": 203
+      "ordem": 203,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1807,7 +2001,8 @@
       "tipo": "Opcional",
       "horas_minutos": 15,
       "pacote_padrao": false,
-      "ordem": 204
+      "ordem": 204,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1816,7 +2011,8 @@
       "tipo": "Opcional",
       "horas_minutos": 15,
       "pacote_padrao": false,
-      "ordem": 205
+      "ordem": 205,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1825,7 +2021,8 @@
       "tipo": "Opcional",
       "horas_minutos": 15,
       "pacote_padrao": false,
-      "ordem": 206
+      "ordem": 206,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1834,7 +2031,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 207
+      "ordem": 207,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1843,7 +2041,8 @@
       "tipo": "Opcional",
       "horas_minutos": 10,
       "pacote_padrao": false,
-      "ordem": 208
+      "ordem": 208,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1852,7 +2051,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 209
+      "ordem": 209,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1861,7 +2061,8 @@
       "tipo": "Opcional",
       "horas_minutos": 25,
       "pacote_padrao": false,
-      "ordem": 210
+      "ordem": 210,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1870,7 +2071,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 211
+      "ordem": 211,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1879,7 +2081,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 212
+      "ordem": 212,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1888,7 +2091,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 213
+      "ordem": 213,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1897,7 +2101,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 214
+      "ordem": 214,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Viagem",
@@ -1906,7 +2111,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 215
+      "ordem": 215,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Segmentação",
@@ -1915,7 +2121,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 217
+      "ordem": 217,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Segmentação",
@@ -1924,7 +2131,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 45,
       "pacote_padrao": true,
-      "ordem": 218
+      "ordem": 218,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Segmentação",
@@ -1933,7 +2141,8 @@
       "tipo": "Opcional",
       "horas_minutos": 90,
       "pacote_padrao": false,
-      "ordem": 219
+      "ordem": 219,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Segmentação",
@@ -1942,7 +2151,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 220
+      "ordem": 220,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Segmentação",
@@ -1951,7 +2161,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 221
+      "ordem": 221,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Proposta de Crédito",
@@ -1960,7 +2171,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 223
+      "ordem": 223,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Proposta de Crédito",
@@ -1969,7 +2181,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 224
+      "ordem": 224,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Proposta de Crédito",
@@ -1978,7 +2191,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 225
+      "ordem": 225,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Proposta de Crédito",
@@ -1987,7 +2201,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 226
+      "ordem": 226,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Proposta de Crédito",
@@ -1996,7 +2211,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 227
+      "ordem": 227,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Proposta de Crédito",
@@ -2005,7 +2221,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 228
+      "ordem": 228,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Proposta de Crédito",
@@ -2014,7 +2231,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 229
+      "ordem": 229,
+      "horas_integracao_minutos": 60
     },
     {
       "modulo": "CRM - MM - Proposta de Crédito",
@@ -2023,7 +2241,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 230
+      "ordem": 230,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Previsão de Vendas",
@@ -2032,7 +2251,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 120,
       "pacote_padrao": true,
-      "ordem": 232
+      "ordem": 232,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Previsão de Vendas",
@@ -2041,7 +2261,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 233
+      "ordem": 233,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Previsão de Vendas",
@@ -2050,7 +2271,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 234
+      "ordem": 234,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Previsão de Vendas",
@@ -2059,7 +2281,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 235
+      "ordem": 235,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Previsão de Vendas",
@@ -2068,7 +2291,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 236
+      "ordem": 236,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Previsão de Vendas",
@@ -2077,7 +2301,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 237
+      "ordem": 237,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Previsão de Vendas",
@@ -2086,7 +2311,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 238
+      "ordem": 238,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Ordem de Serviço",
@@ -2095,7 +2321,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 240
+      "ordem": 240,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Ordem de Serviço",
@@ -2104,7 +2331,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 241
+      "ordem": 241,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Ordem de Serviço",
@@ -2113,7 +2341,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 242
+      "ordem": 242,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Ordem de Serviço",
@@ -2122,7 +2351,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 243
+      "ordem": 243,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Ordem de Serviço",
@@ -2131,7 +2361,8 @@
       "tipo": "Opcional",
       "horas_minutos": 90,
       "pacote_padrao": false,
-      "ordem": 244
+      "ordem": 244,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Ordem de Serviço",
@@ -2140,7 +2371,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 245
+      "ordem": 245,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Ordem de Serviço",
@@ -2149,7 +2381,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 120,
       "pacote_padrao": true,
-      "ordem": 246
+      "ordem": 246,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Ordem de Serviço",
@@ -2158,7 +2391,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 247
+      "ordem": 247,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2167,7 +2401,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 249
+      "ordem": 249,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2176,7 +2411,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 250
+      "ordem": 250,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2185,7 +2421,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 251
+      "ordem": 251,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2194,7 +2431,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 252
+      "ordem": 252,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2203,7 +2441,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 253
+      "ordem": 253,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2212,7 +2451,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 254
+      "ordem": 254,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2221,7 +2461,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 255
+      "ordem": 255,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2230,7 +2471,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 256
+      "ordem": 256,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2239,7 +2481,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 257
+      "ordem": 257,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2248,7 +2491,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 258
+      "ordem": 258,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2257,7 +2501,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 120,
       "pacote_padrao": true,
-      "ordem": 259
+      "ordem": 259,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2266,7 +2511,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 260
+      "ordem": 260,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2275,7 +2521,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 261
+      "ordem": 261,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2284,7 +2531,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 262
+      "ordem": 262,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Funil de Vendas",
@@ -2293,7 +2541,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 263
+      "ordem": 263,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Análise de Vendas",
@@ -2302,7 +2551,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 265
+      "ordem": 265,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Análise de Vendas",
@@ -2311,7 +2561,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 266
+      "ordem": 266,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Análise de Vendas",
@@ -2320,7 +2571,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 267
+      "ordem": 267,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Análise de Vendas",
@@ -2329,7 +2581,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 268
+      "ordem": 268,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Análise de Vendas",
@@ -2338,7 +2591,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 269
+      "ordem": 269,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Análise de Vendas",
@@ -2347,7 +2601,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 270
+      "ordem": 270,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Análise de Vendas",
@@ -2356,7 +2611,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 271
+      "ordem": 271,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Análise de Vendas",
@@ -2365,7 +2621,8 @@
       "tipo": "Opcional",
       "horas_minutos": 90,
       "pacote_padrao": false,
-      "ordem": 272
+      "ordem": 272,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Análise de Vendas",
@@ -2374,7 +2631,8 @@
       "tipo": "Opcional",
       "horas_minutos": 90,
       "pacote_padrao": false,
-      "ordem": 273
+      "ordem": 273,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2383,7 +2641,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 275
+      "ordem": 275,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2392,7 +2651,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 276
+      "ordem": 276,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2401,7 +2661,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 90,
       "pacote_padrao": true,
-      "ordem": 277
+      "ordem": 277,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2410,7 +2671,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 120,
       "pacote_padrao": true,
-      "ordem": 278
+      "ordem": 278,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2419,7 +2681,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 15,
       "pacote_padrao": true,
-      "ordem": 279
+      "ordem": 279,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2428,7 +2691,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 280
+      "ordem": 280,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2437,7 +2701,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 281
+      "ordem": 281,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2446,7 +2711,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 282
+      "ordem": 282,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2455,7 +2721,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 283
+      "ordem": 283,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2464,7 +2731,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 284
+      "ordem": 284,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2473,7 +2741,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 285
+      "ordem": 285,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2482,7 +2751,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 286
+      "ordem": 286,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2491,7 +2761,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 287
+      "ordem": 287,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2500,7 +2771,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 288
+      "ordem": 288,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2509,7 +2781,8 @@
       "tipo": "Opcional",
       "horas_minutos": 45,
       "pacote_padrao": false,
-      "ordem": 289
+      "ordem": 289,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2518,7 +2791,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 290
+      "ordem": 290,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2527,7 +2801,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 291
+      "ordem": 291,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2536,7 +2811,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 292
+      "ordem": 292,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Potencial de Máquinas",
@@ -2545,7 +2821,8 @@
       "tipo": "Opcional",
       "horas_minutos": 60,
       "pacote_padrao": false,
-      "ordem": 293
+      "ordem": 293,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2554,7 +2831,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 295
+      "ordem": 295,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2563,7 +2841,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 296
+      "ordem": 296,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2572,7 +2851,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 297
+      "ordem": 297,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2581,7 +2861,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 298
+      "ordem": 298,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2590,7 +2871,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 299
+      "ordem": 299,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2599,7 +2881,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 60,
       "pacote_padrao": true,
-      "ordem": 300
+      "ordem": 300,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2608,7 +2891,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 301
+      "ordem": 301,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2617,7 +2901,8 @@
       "tipo": "Opcional",
       "horas_minutos": 15,
       "pacote_padrao": false,
-      "ordem": 302
+      "ordem": 302,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2626,7 +2911,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 30,
       "pacote_padrao": true,
-      "ordem": 303
+      "ordem": 303,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2635,7 +2921,8 @@
       "tipo": "Opcional",
       "horas_minutos": 30,
       "pacote_padrao": false,
-      "ordem": 304
+      "ordem": 304,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2644,7 +2931,8 @@
       "tipo": "Opcional",
       "horas_minutos": 15,
       "pacote_padrao": false,
-      "ordem": 305
+      "ordem": 305,
+      "horas_integracao_minutos": 0
     },
     {
       "modulo": "CRM - MM - Chamados",
@@ -2653,7 +2941,8 @@
       "tipo": "Obrigatório",
       "horas_minutos": 15,
       "pacote_padrao": true,
-      "ordem": 306
+      "ordem": 306,
+      "horas_integracao_minutos": 0
     }
   ],
   "erps": [

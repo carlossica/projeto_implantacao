@@ -18,7 +18,8 @@ export type Funcionalidade = {
   funcionalidade_mae: string | null;
   nome: string;
   tipo: string | null;
-  horas_minutos: number;
+  horas_minutos: number;            // coluna G — C&S CRM
+  horas_integracao_minutos?: number; // coluna I — Integração de Dados
   pacote_padrao: boolean;
   ordem: number;
   ativo?: boolean;
