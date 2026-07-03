@@ -97,9 +97,15 @@ export function calcular(dados) {
   let minIntegracao = 0;
   let fluxosAtivos = 0;
   if (temIntegracao) {
+    // Cada fluxo entra no máximo UMA vez, mesmo que várias funcionalidades
+    // marcadas o ativem OU que haja linhas repetidas do mesmo fluxo.
+    const contados = new Set();
     for (const fx of fluxosIntegracao) {
       const ativo = (fx.funcionalidades_ativa ?? []).some((fid) => funcsMarcadasIds.has(fid));
       if (!ativo) continue;
+      const chave = (fx.fluxo || fx.tabela) ? `${fx.fluxo ?? ''}||${fx.tabela ?? ''}` : `#${fx.id}`;
+      if (contados.has(chave)) continue;
+      contados.add(chave);
       fluxosAtivos += 1;
       minIntegracao += (fx.min_config || 0) + (fx.min_teste_carga || 0) + (fx.min_apoio || 0) + (fx.min_validacao || 0);
     }
